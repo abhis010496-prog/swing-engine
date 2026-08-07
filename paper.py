@@ -13,7 +13,8 @@ from datetime import datetime
 import pandas as pd
 import streamlit as st
 
-DB = "market.db"
+import os as _os
+DB = "market.db" if _os.path.exists("market.db") else "deploy.db"
 BENCHMARK = "^NSEI"
 STARTING_CASH = 1_000_000
 

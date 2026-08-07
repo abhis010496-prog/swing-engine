@@ -20,7 +20,8 @@ import streamlit.components.v1 as components
 
 import modes
 
-DB = "market.db"
+import os as _os
+DB = "market.db" if _os.path.exists("market.db") else "deploy.db"
 BENCHMARK = "^NSEI"
 PER_CATEGORY = 5
 SERIES_DAYS = 130
