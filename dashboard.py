@@ -40,6 +40,37 @@ st.markdown("""
   div[data-testid="stSelectbox"]:first-of-type { max-width:280px; margin-bottom:10px; }
   div[data-baseweb="select"] > div { background:#fff; border-color:#D6DEE7;
       border-radius:10px; font-size:15px; font-weight:600; min-height:46px; }
+
+  /* ---------- mobile only: nothing above this line is modified ---------- */
+  @media (max-width: 900px) {
+    .block-container { padding:0.5rem 0.6rem 0 !important; }
+    div[data-testid="stSelectbox"]:first-of-type { max-width:100% !important; }
+
+    /* Streamlit columns: wrap instead of squeezing into slivers */
+    div[data-testid="stHorizontalBlock"] {
+        flex-wrap:wrap !important; gap:0.55rem !important; }
+    div[data-testid="stHorizontalBlock"] > div[data-testid="column"] {
+        flex:1 1 100% !important; width:100% !important; min-width:0 !important; }
+
+    /* ...except metric strips, which read better two-up */
+    div[data-testid="stHorizontalBlock"]:has([data-testid="stMetric"])
+        > div[data-testid="column"] {
+        flex:1 1 calc(50% - 0.55rem) !important; width:auto !important; }
+    div[data-testid="stMetricValue"] { font-size:1.3rem !important; }
+    div[data-testid="stMetricLabel"] p { font-size:0.78rem !important; }
+
+    /* page banners defined further down the file */
+    .whhero, .phero, .whero, .mhero {
+        padding:18px 16px !important; border-radius:14px !important; }
+    .whhero h2, .phero h2, .whero h2, .mhero h2 { font-size:20px !important; }
+    .whhero p, .phero p, .whero p, .mhero p { font-size:12.5px !important; }
+    .wcard, .mcard { padding:14px 15px !important; }
+    .wname { font-size:17px !important; }
+    .wbig, .freq { font-size:19px !important; }
+    .elevels { gap:14px !important; }
+    .vbox, .mout, .entry, .wsince, .wgone {
+        padding:12px 14px !important; font-size:13px !important; }
+  }
 </style>
 """, unsafe_allow_html=True)
 
@@ -821,6 +852,7 @@ payload = {
 
 HTML = """
 <!DOCTYPE html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -933,6 +965,76 @@ input[type=range]{width:100%;accent-color:var(--a1);margin:10px 0 4px;height:4px
 .empty{padding:50px 26px;text-align:center;color:var(--soft);font-size:14px}
 .fade{animation:f .3s ease}
 @keyframes f{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+
+/* ================================================================
+   MOBILE ONLY — every rule above this point is unchanged.
+   These only apply at <=900px, so the desktop render is identical.
+   ================================================================ */
+@media(max-width:900px){
+  .wrap{padding:0 0 24px}
+
+  .hero{padding:20px 18px;border-radius:16px;margin-bottom:14px}
+  .hero h1{font-size:23px}
+  .hero p{font-size:12.5px;margin-top:4px}
+
+  .lab{margin-bottom:7px}
+  .tabs{grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:16px}
+  .tab{padding:12px 13px;border-radius:12px}
+  .tab .t{font-size:13.5px}
+  .tab .n{font-size:11px;margin-top:3px}
+  .tab:hover{transform:none;box-shadow:none}
+
+  /* .grid already collapses to one column; the sticky column must not
+     stay pinned once it is stacked above the detail panel */
+  .grid{gap:12px}
+  .left{position:static;top:auto}
+  .card{border-radius:14px}
+
+  /* cap the list so the detail panel is reachable without endless scrolling */
+  .list{max-height:320px;-webkit-overflow-scrolling:touch}
+  .item{padding:11px 14px}
+  #list .row > div:first-child{min-width:0}
+  #list .nm{overflow-wrap:anywhere}
+  #list .px{white-space:nowrap}
+
+  .pad{padding:16px 16px}
+  .co{font-size:20px}
+  .meta{font-size:12px}
+  .big{font-size:26px}
+
+  /* detail header: price block drops below the company name */
+  #top .row{flex-wrap:wrap;gap:0}
+  #top .row > div:first-child{flex:1 1 100%}
+  #top .row > div:last-child{flex:1 1 100%;margin-top:10px;
+      text-align:left !important;display:flex;align-items:baseline;gap:10px}
+
+  .seg{display:flex;width:100%;margin:14px 0 8px}
+  .seg button{flex:1;text-align:center;padding:8px 6px}
+
+  /* the SVG keeps its 700x250 ratio, so a fixed 250px box letterboxes
+     into dead space once the width drops - match the height to the ratio */
+  #cwrap svg{height:170px !important}
+  .tip{font-size:11px;padding:5px 8px}
+
+  .cols{gap:16px}
+  .pt{font-size:13px;line-height:1.8}
+
+  .buybig{font-size:18px}
+  input[type=range]{height:20px;margin:12px 0 4px}
+
+  .nw{font-size:13px}
+  .foot{font-size:11.5px;margin-top:18px}
+  .empty{padding:34px 18px;font-size:13.5px}
+}
+
+@media(max-width:420px){
+  .tabs{grid-template-columns:1fr}
+  .hero h1{font-size:21px}
+  .co{font-size:18px}
+  .big{font-size:23px}
+  .pad{padding:14px 13px}
+  #cwrap svg{height:145px !important}
+}
 </style></head><body>
 <div class="wrap">
   <div class="hero" id="hero">
@@ -1129,6 +1231,30 @@ function choose(t){ sel=t; list(); detail(); }
 
 $("heroP").textContent = `${D.total.toLocaleString("en-IN")} companies checked · prices as of ${D.asOf}`;
 pick(0);
+
+/* ---- mobile only: fit the host iframe to the stacked content ----
+   Above 900px this returns immediately, so the desktop height=1320
+   set in Python is left exactly as it was. If the host blocks access
+   to the frame element this silently does nothing and the iframe
+   falls back to its own scrollbar (scrolling=True). */
+function syncHeight(){
+  if(window.innerWidth > 900) return;
+  try{
+    const f = window.frameElement;
+    if(!f) return;
+    const h = Math.ceil(document.documentElement.scrollHeight) + 8;
+    const cur = parseInt(f.style.height, 10) || f.clientHeight || 0;
+    if(Math.abs(cur - h) > 4){
+      f.style.height = h + "px";
+      f.setAttribute("height", h);
+    }
+  }catch(e){}
+}
+window.addEventListener("resize", syncHeight);
+if(window.ResizeObserver){
+  new ResizeObserver(syncHeight).observe(document.documentElement);
+}
+syncHeight();
 </script></body></html>
 """
 
