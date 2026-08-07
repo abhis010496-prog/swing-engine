@@ -1,0 +1,2148 @@
+ 
+============================================ 
+RUN STARTED: 05-08-2026 19:03:14.66 
+============================================ 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+$TATAMOTORS.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TATAMOTORS.NS']: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TMLCV.NS"}}}
+$TMLCV.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TMLCV.NS']: possibly delisted; no timezone found
+Loaded 45 instruments.
+
+  1/5: ASIANPAINT, ASTRAL, AXISBANK, BAJFINANCE, BHARTIARTL, BHEL, CAPLIPOINT, CDSL, COFORGE, CUMMINSIND
+  2/5: DIXON, ELECON, GARFIBRES, GRANULES, HDFCBANK, HGINFRA, HINDUNILVR, ICICIBANK, INFY, IRCTC
+  3/5: ITC, JBCHEPHARM, KIRLOSBROS, LT, MARUTI, NTPC, PERSISTENT, PIIND, POLYCAB, RALLIS
+  4/5: RATEGAIN, RELIANCE, SBIN, SHAKTIPUMP, SUNPHARMA, SUZLON, TATAMOTORS, TATASTEEL, TCS, TECHNOE
+  5/5: TIINDIA, TITAN, TMLCV, TMPV, ULTRACEMCO, VOLTAS
+
+==============================================
+  Stocks OK        : 44
+  Stocks failed    : 2
+  Rows written     : 17,442
+  Total in database: 55,603
+  Date range       : 2021-08-06 to 2026-08-05
+  Failed: TATAMOTORS, TMLCV
+==============================================
+Fetching news for 46 companies.
+About 1 minutes. Let it run.
+
+  [ 1/46] ASIANPAINT     15 items,  1 new
+  [ 2/46] ASTRAL         15 items,  5 new
+  [ 3/46] AXISBANK       15 items,  2 new
+  [ 4/46] BAJFINANCE     15 items,  1 new
+  [ 5/46] BHARTIARTL     15 items,  0 new
+  [ 6/46] BHEL           15 items,  2 new
+  [ 7/46] CAPLIPOINT     15 items,  8 new  <-- busy
+  [ 8/46] CDSL           15 items,  8 new  <-- busy
+  [ 9/46] COFORGE        15 items,  0 new
+  [10/46] CUMMINSIND     15 items,  5 new
+  [11/46] DIXON          15 items,  0 new
+  [12/46] ELECON         15 items,  6 new
+  [13/46] GARFIBRES       9 items,  9 new  <-- busy
+  [14/46] GRANULES       15 items,  5 new
+  [15/46] HDFCBANK       15 items,  0 new
+  [16/46] HGINFRA        15 items,  9 new  <-- busy
+  [17/46] HINDUNILVR     15 items,  1 new
+  [18/46] ICICIBANK      15 items,  1 new
+  [19/46] INFY           15 items,  0 new
+  [20/46] IRCTC          15 items,  8 new  <-- busy
+  [21/46] ITC            15 items,  0 new
+  [22/46] JBCHEPHARM     15 items,  6 new
+  [23/46] KIRLOSBROS     15 items,  6 new
+  [24/46] LT             15 items,  0 new
+  [25/46] MARUTI         15 items,  0 new
+  [26/46] NTPC           15 items,  4 new
+  [27/46] PERSISTENT     15 items,  1 new
+  [28/46] PIIND          15 items,  8 new  <-- busy
+  [29/46] POLYCAB        15 items,  3 new
+  [30/46] RALLIS         15 items,  3 new
+  [31/46] RATEGAIN       15 items, 10 new  <-- busy
+  [32/46] RELIANCE       15 items,  2 new
+  [33/46] SBIN           15 items,  5 new
+  [34/46] SHAKTIPUMP     15 items,  8 new  <-- busy
+  [35/46] SUNPHARMA      15 items,  0 new
+  [36/46] SUZLON         15 items,  0 new
+  [37/46] TATAMOTORS     15 items,  1 new
+  [38/46] TATASTEEL      15 items,  0 new
+  [39/46] TCS            15 items,  0 new
+  [40/46] TECHNOE        15 items, 14 new  <-- busy
+  [41/46] TIINDIA        15 items,  7 new
+  [42/46] TITAN          15 items,  7 new
+  [43/46] TMLCV          15 items, 12 new  <-- busy
+  [44/46] TMPV           15 items,  2 new
+  [45/46] ULTRACEMCO     15 items,  0 new
+  [46/46] VOLTAS         15 items,  6 new
+
+====================================================
+  NEWS UPDATE COMPLETE
+====================================================
+  New headlines stored : 176
+  Already had          : 508
+  Companies failed     : 0
+  Purged (older than 45d) : 168
+  Total in database    : 503
+====================================================
+
+Next: python brief.py
+RUN FINISHED: 05-08-2026 19:05:30.46 
+ 
+============================================ 
+RUN STARTED: 05-08-2026 20:34:50.69 
+============================================ 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+$TATAMOTORS.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TATAMOTORS.NS']: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TMLCV.NS"}}}
+$TMLCV.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TMLCV.NS']: possibly delisted; no timezone found
+Loaded 45 instruments.
+
+  1/5: ASIANPAINT, ASTRAL, AXISBANK, BAJFINANCE, BHARTIARTL, BHEL, CAPLIPOINT, CDSL, COFORGE, CUMMINSIND
+  2/5: DIXON, ELECON, GARFIBRES, GRANULES, HDFCBANK, HGINFRA, HINDUNILVR, ICICIBANK, INFY, IRCTC
+  3/5: ITC, JBCHEPHARM, KIRLOSBROS, LT, MARUTI, NTPC, PERSISTENT, PIIND, POLYCAB, RALLIS
+  4/5: RATEGAIN, RELIANCE, SBIN, SHAKTIPUMP, SUNPHARMA, SUZLON, TATAMOTORS, TATASTEEL, TCS, TECHNOE
+  5/5: TIINDIA, TITAN, TMLCV, TMPV, ULTRACEMCO, VOLTAS
+
+==============================================
+  Stocks OK        : 44
+  Stocks failed    : 2
+  Rows written     : 17,442
+  Total in database: 55,603
+  Date range       : 2021-08-06 to 2026-08-05
+  Failed: TATAMOTORS, TMLCV
+==============================================
+Fetching news for 46 companies.
+About 1 minutes. Let it run.
+
+  [ 1/46] ASIANPAINT     15 items,  1 new
+  [ 2/46] ASTRAL         15 items,  5 new
+  [ 3/46] AXISBANK       15 items,  0 new
+  [ 4/46] BAJFINANCE     15 items,  0 new
+  [ 5/46] BHARTIARTL     15 items,  1 new
+  [ 6/46] BHEL           15 items,  2 new
+  [ 7/46] CAPLIPOINT     15 items,  8 new  <-- busy
+  [ 8/46] CDSL           15 items,  9 new  <-- busy
+  [ 9/46] COFORGE        15 items,  0 new
+  [10/46] CUMMINSIND     15 items,  6 new
+  [11/46] DIXON          15 items,  0 new
+  [12/46] ELECON         15 items,  7 new
+  [13/46] GARFIBRES      10 items, 10 new  <-- busy
+  [14/46] GRANULES       15 items,  5 new
+  [15/46] HDFCBANK       15 items,  1 new
+  [16/46] HGINFRA        15 items,  9 new  <-- busy
+  [17/46] HINDUNILVR     15 items,  1 new
+  [18/46] ICICIBANK      15 items,  1 new
+  [19/46] INFY           15 items,  0 new
+  [20/46] IRCTC          15 items,  8 new  <-- busy
+  [21/46] ITC            15 items,  0 new
+  [22/46] JBCHEPHARM     15 items,  6 new
+  [23/46] KIRLOSBROS     15 items,  7 new
+  [24/46] LT             15 items,  1 new
+  [25/46] MARUTI         15 items,  0 new
+  [26/46] NTPC           15 items,  4 new
+  [27/46] PERSISTENT     15 items,  0 new
+  [28/46] PIIND          15 items,  8 new  <-- busy
+  [29/46] POLYCAB        15 items,  2 new
+  [30/46] RALLIS         15 items,  3 new
+  [31/46] RATEGAIN       15 items, 10 new  <-- busy
+  [32/46] RELIANCE       15 items,  2 new
+  [33/46] SBIN           15 items,  6 new
+  [34/46] SHAKTIPUMP     15 items,  8 new  <-- busy
+  [35/46] SUNPHARMA      15 items,  0 new
+  [36/46] SUZLON         15 items,  0 new
+  [37/46] TATAMOTORS     15 items,  1 new
+  [38/46] TATASTEEL      15 items,  0 new
+  [39/46] TCS            15 items,  1 new
+  [40/46] TECHNOE        15 items, 14 new  <-- busy
+  [41/46] TIINDIA        15 items,  7 new
+  [42/46] TITAN          15 items,  7 new
+  [43/46] TMLCV          15 items, 12 new  <-- busy
+  [44/46] TMPV           15 items,  2 new
+  [45/46] ULTRACEMCO     15 items,  0 new
+  [46/46] VOLTAS         15 items,  6 new
+
+====================================================
+  NEWS UPDATE COMPLETE
+====================================================
+  New headlines stored : 181
+  Already had          : 504
+  Companies failed     : 0
+  Purged (older than 45d) : 170
+  Total in database    : 514
+====================================================
+
+Next: python brief.py
+RUN FINISHED: 05-08-2026 20:37:06.53 
+ 
+============================================ 
+RUN STARTED: 05-08-2026 21:41:38.86 
+============================================ 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+$TATAMOTORS.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TATAMOTORS.NS']: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TMLCV.NS"}}}
+$TMLCV.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TMLCV.NS']: possibly delisted; no timezone found
+Loaded 45 instruments.
+
+  1/5: ASIANPAINT, ASTRAL, AXISBANK, BAJFINANCE, BHARTIARTL, BHEL, CAPLIPOINT, CDSL, COFORGE, CUMMINSIND
+  2/5: DIXON, ELECON, GARFIBRES, GRANULES, HDFCBANK, HGINFRA, HINDUNILVR, ICICIBANK, INFY, IRCTC
+  3/5: ITC, JBCHEPHARM, KIRLOSBROS, LT, MARUTI, NTPC, PERSISTENT, PIIND, POLYCAB, RALLIS
+  4/5: RATEGAIN, RELIANCE, SBIN, SHAKTIPUMP, SUNPHARMA, SUZLON, TATAMOTORS, TATASTEEL, TCS, TECHNOE
+  5/5: TIINDIA, TITAN, TMLCV, TMPV, ULTRACEMCO, VOLTAS
+
+==============================================
+  Stocks OK        : 44
+  Stocks failed    : 2
+  Rows written     : 17,442
+  Total in database: 55,603
+  Date range       : 2021-08-06 to 2026-08-05
+  Failed: TATAMOTORS, TMLCV
+==============================================
+Fetching news for 46 companies.
+About 1 minutes. Let it run.
+
+  [ 1/46] ASIANPAINT     15 items,  1 new
+  [ 2/46] ASTRAL         15 items,  5 new
+  [ 3/46] AXISBANK       15 items,  0 new
+  [ 4/46] BAJFINANCE     15 items,  0 new
+  [ 5/46] BHARTIARTL     15 items,  0 new
+  [ 6/46] BHEL           15 items,  3 new
+  [ 7/46] CAPLIPOINT     15 items,  8 new  <-- busy
+  [ 8/46] CDSL           15 items,  9 new  <-- busy
+  [ 9/46] COFORGE        15 items,  0 new
+  [10/46] CUMMINSIND     15 items,  6 new
+  [11/46] DIXON          15 items,  0 new
+  [12/46] ELECON         15 items,  6 new
+  [13/46] GARFIBRES      10 items, 10 new  <-- busy
+  [14/46] GRANULES       15 items,  5 new
+  [15/46] HDFCBANK       15 items,  0 new
+  [16/46] HGINFRA        15 items,  9 new  <-- busy
+  [17/46] HINDUNILVR     15 items,  1 new
+  [18/46] ICICIBANK      15 items,  1 new
+  [19/46] INFY           15 items,  0 new
+  [20/46] IRCTC          15 items,  8 new  <-- busy
+  [21/46] ITC            15 items,  0 new
+  [22/46] JBCHEPHARM     15 items,  6 new
+  [23/46] KIRLOSBROS     15 items,  6 new
+  [24/46] LT             15 items,  0 new
+  [25/46] MARUTI         15 items,  0 new
+  [26/46] NTPC           15 items,  4 new
+  [27/46] PERSISTENT     15 items,  0 new
+  [28/46] PIIND          15 items,  8 new  <-- busy
+  [29/46] POLYCAB        15 items,  2 new
+  [30/46] RALLIS         15 items,  3 new
+  [31/46] RATEGAIN       15 items, 10 new  <-- busy
+  [32/46] RELIANCE       15 items,  2 new
+  [33/46] SBIN           15 items,  6 new
+  [34/46] SHAKTIPUMP     15 items,  9 new  <-- busy
+  [35/46] SUNPHARMA      15 items,  1 new
+  [36/46] SUZLON         15 items,  0 new
+  [37/46] TATAMOTORS     15 items,  1 new
+  [38/46] TATASTEEL      15 items,  0 new
+  [39/46] TCS            15 items,  0 new
+  [40/46] TECHNOE        15 items, 14 new  <-- busy
+  [41/46] TIINDIA        15 items,  7 new
+  [42/46] TITAN          15 items,  7 new
+  [43/46] TMLCV          15 items, 12 new  <-- busy
+  [44/46] TMPV           15 items,  2 new
+  [45/46] ULTRACEMCO     15 items,  0 new
+  [46/46] VOLTAS         15 items,  6 new
+
+====================================================
+  NEWS UPDATE COMPLETE
+====================================================
+  New headlines stored : 178
+  Already had          : 507
+  Companies failed     : 0
+  Purged (older than 45d) : 174
+  Total in database    : 518
+====================================================
+
+Next: python brief.py
+RUN FINISHED: 05-08-2026 21:43:49.39 
+ 
+============================================ 
+RUN STARTED: 05-08-2026 21:52:41.28 
+============================================ 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+$TATAMOTORS.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TATAMOTORS.NS']: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TMLCV.NS"}}}
+$TMLCV.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TMLCV.NS']: possibly delisted; no timezone found
+Loaded 45 instruments.
+
+  1/5: ASIANPAINT, ASTRAL, AXISBANK, BAJFINANCE, BHARTIARTL, BHEL, CAPLIPOINT, CDSL, COFORGE, CUMMINSIND
+  2/5: DIXON, ELECON, GARFIBRES, GRANULES, HDFCBANK, HGINFRA, HINDUNILVR, ICICIBANK, INFY, IRCTC
+  3/5: ITC, JBCHEPHARM, KIRLOSBROS, LT, MARUTI, NTPC, PERSISTENT, PIIND, POLYCAB, RALLIS
+  4/5: RATEGAIN, RELIANCE, SBIN, SHAKTIPUMP, SUNPHARMA, SUZLON, TATAMOTORS, TATASTEEL, TCS, TECHNOE
+  5/5: TIINDIA, TITAN, TMLCV, TMPV, ULTRACEMCO, VOLTAS
+
+==============================================
+  Stocks OK        : 44
+  Stocks failed    : 2
+  Rows written     : 17,442
+  Total in database: 55,603
+  Date range       : 2021-08-06 to 2026-08-05
+  Failed: TATAMOTORS, TMLCV
+==============================================
+Fetching news for 46 companies.
+About 1 minutes. Let it run.
+
+  [ 1/46] ASIANPAINT     15 items,  0 new
+  [ 2/46] ASTRAL         15 items,  5 new
+  [ 3/46] AXISBANK       15 items,  0 new
+  [ 4/46] BAJFINANCE     15 items,  0 new
+  [ 5/46] BHARTIARTL     15 items,  0 new
+  [ 6/46] BHEL           15 items,  2 new
+  [ 7/46] CAPLIPOINT     15 items,  9 new  <-- busy
+  [ 8/46] CDSL           15 items,  8 new  <-- busy
+  [ 9/46] COFORGE        15 items,  0 new
+  [10/46] CUMMINSIND     15 items,  4 new
+  [11/46] DIXON          15 items,  0 new
+  [12/46] ELECON         15 items,  6 new
+  [13/46] GARFIBRES      10 items, 10 new  <-- busy
+  [14/46] GRANULES       15 items,  5 new
+  [15/46] HDFCBANK       15 items,  0 new
+  [16/46] HGINFRA        15 items,  9 new  <-- busy
+  [17/46] HINDUNILVR     15 items,  1 new
+  [18/46] ICICIBANK      15 items,  1 new
+  [19/46] INFY           15 items,  0 new
+  [20/46] IRCTC          15 items,  8 new  <-- busy
+  [21/46] ITC            15 items,  0 new
+  [22/46] JBCHEPHARM     15 items,  6 new
+  [23/46] KIRLOSBROS     15 items,  6 new
+  [24/46] LT             15 items,  0 new
+  [25/46] MARUTI         15 items,  0 new
+  [26/46] NTPC           15 items,  4 new
+  [27/46] PERSISTENT     15 items,  0 new
+  [28/46] PIIND          15 items,  8 new  <-- busy
+  [29/46] POLYCAB        15 items,  2 new
+  [30/46] RALLIS         15 items,  3 new
+  [31/46] RATEGAIN       15 items, 10 new  <-- busy
+  [32/46] RELIANCE       15 items,  2 new
+  [33/46] SBIN           15 items,  6 new
+  [34/46] SHAKTIPUMP     15 items,  8 new  <-- busy
+  [35/46] SUNPHARMA      15 items,  0 new
+  [36/46] SUZLON         15 items,  0 new
+  [37/46] TATAMOTORS     15 items,  2 new
+  [38/46] TATASTEEL      15 items,  0 new
+  [39/46] TCS            15 items,  0 new
+  [40/46] TECHNOE        15 items, 14 new  <-- busy
+  [41/46] TIINDIA        15 items,  7 new
+  [42/46] TITAN          15 items,  7 new
+  [43/46] TMLCV          15 items, 12 new  <-- busy
+  [44/46] TMPV           15 items,  2 new
+  [45/46] ULTRACEMCO     15 items,  2 new
+  [46/46] VOLTAS         15 items,  7 new
+
+====================================================
+  NEWS UPDATE COMPLETE
+====================================================
+  New headlines stored : 176
+  Already had          : 509
+  Companies failed     : 0
+  Purged (older than 45d) : 172
+  Total in database    : 522
+====================================================
+
+Next: python brief.py
+RUN FINISHED: 05-08-2026 21:54:59.92 
+ 
+============================================ 
+RUN STARTED: 06-08-2026  9:29:17.21 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TMLCV.NS"}}}
+$TMLCV.NS: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+$TATAMOTORS.NS: possibly delisted; no timezone found
+
+2 Failed downloads:
+['TMLCV.NS', 'TATAMOTORS.NS']: possibly delisted; no timezone found
+Getting the list of listed companies ...
+  trying nsearchives.nseindia.com ...
+  got 2397 rows
+  2078 equity symbols in the universe
+
+2080 stocks already have data.
+212 still to fetch. Roughly 0 minutes.
+
+Safe to stop with Ctrl+C — rerun and it continues.
+
+  [  1/11] 3BBLACKBIO ... (0 done, 0 failed)
+  [  2/11] ASTAR ... (20 done, 0 failed, ~1 min left)
+  [  3/11] CMLL ... (40 done, 0 failed, ~1 min left)
+  [  4/11] EXCELSOFT ... (60 done, 0 failed, ~0 min left)
+  [  5/11] HBESD ... (80 done, 0 failed, ~0 min left)
+  [  6/11] KNACK ... (100 done, 0 failed, ~0 min left)
+  [  7/11] MEESHO ... (120 done, 0 failed, ~0 min left)
+  [  8/11] PARKHOSPS ... (140 done, 0 failed, ~0 min left)
+  [  9/11] RUDRA ... (160 done, 0 failed, ~0 min left)
+  [ 10/11] SRTL ... (180 done, 0 failed, ~0 min left)
+  [ 11/11] VAML ... (198 done, 2 failed)
+
+  fetched 210, failed 2, 8,715 new rows
+
+========================================================
+  UNIVERSE STATUS
+========================================================
+  Companies tracked      : 2,084
+  Marked inactive        : 0
+  With price data        : 2,083
+  With enough history    : 1,875  (screenable)
+  Total price rows       : 1,364,712
+  Date range             : 2021-08-06 to 2026-08-06
+  Database size          : 199 MB
+========================================================
+Loading price history ...
+  1,364,712 rows
+  benchmark loaded
+Scoring ...
+
+  scored 1,874, skipped 208 (too little history)
+  took 23 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      626
+  ... and beating the index          511
+  ... and within 15% of high         440
+  ... and turnover over Rs8cr        330
+  ... and moves at least 1.8%/day    322
+  ... and not over-extended          294
+======================================================
+
+  By size (after all filters):
+    large       57
+    mid         74
+    small      159
+    micro        3
+
+Done. The dashboard will now load instantly.
+Fetching news for 150 companies (~3 minutes).
+These are the highest-scoring stocks — the only ones that could
+appear in a shortlist. Ctrl+C is safe.
+
+    10/150   117 new headlines
+    20/150   231 new headlines
+    30/150   350 new headlines
+    40/150   470 new headlines
+    50/150   587 new headlines
+    60/150   707 new headlines
+    70/150   827 new headlines
+    80/150   942 new headlines
+    90/150   1059 new headlines
+   100/150   1179 new headlines
+   110/150   1296 new headlines
+   120/150   1410 new headlines
+   130/150   1529 new headlines
+   140/150   1640 new headlines
+   150/150   1760 new headlines
+
+================================================
+  New headlines   : 1760
+  Already had     : 28
+  Failed          : 0
+  Purged (>45d)  : 1012
+  Total stored    : 1270
+================================================
+
+Next: python rank.py  (so catalyst scores pick these up)
+Loading price history ...
+  1,364,712 rows
+  benchmark loaded
+Scoring ...
+
+  scored 1,874, skipped 208 (too little history)
+  took 17 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      626
+  ... and beating the index          511
+  ... and within 15% of high         440
+  ... and turnover over Rs8cr        330
+  ... and moves at least 1.8%/day    322
+  ... and not over-extended          294
+======================================================
+
+  By size (after all filters):
+    large       57
+    mid         74
+    small      159
+    micro        3
+
+Done. The dashboard will now load instantly.
+RUN FINISHED: 06-08-2026  9:36:02.44 
+ 
+============================================ 
+RUN STARTED: 06-08-2026 11:50:17.35 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+$TATAMOTORS.NS: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TMLCV.NS"}}}
+$TMLCV.NS: possibly delisted; no timezone found
+
+2 Failed downloads:
+['TATAMOTORS.NS', 'TMLCV.NS']: possibly delisted; no timezone found
+Getting the list of listed companies ...
+  trying nsearchives.nseindia.com ...
+  got 2397 rows
+  2078 equity symbols in the universe
+
+2083 stocks already have data.
+211 still to fetch. Roughly 0 minutes.
+
+Safe to stop with Ctrl+C — rerun and it continues.
+
+  [  1/11] 3BBLACKBIO ... (0 done, 0 failed)
+  [  2/11] ASTAR ... (20 done, 0 failed, ~0 min left)
+  [  3/11] CMLL ... (40 done, 0 failed, ~0 min left)
+  [  4/11] EXCELSOFT ... (60 done, 0 failed, ~0 min left)
+  [  5/11] HBESD ... (80 done, 0 failed, ~0 min left)
+  [  6/11] KOTIC ... (100 done, 0 failed, ~0 min left)
+  [  7/11] MENNPIS ... (120 done, 0 failed, ~0 min left)
+  [  8/11] PAUSHAKLTD ... (140 done, 0 failed, ~0 min left)
+  [  9/11] SAATVIKGL ... (160 done, 0 failed, ~0 min left)
+  [ 10/11] STUDDS ... (180 done, 0 failed, ~0 min left)
+  [ 11/11] VEDPOWER ... (198 done, 2 failed)
+
+  fetched 209, failed 2, 3,213 new rows
+
+========================================================
+  UNIVERSE STATUS
+========================================================
+  Companies tracked      : 2,082
+  Marked inactive        : 2
+  With price data        : 2,083
+  With enough history    : 1,875  (screenable)
+  Total price rows       : 1,364,731
+  Date range             : 2021-08-06 to 2026-08-06
+  Database size          : 200 MB
+========================================================
+
+  2 symbols failed 3+ times and were switched off.
+  Usually delisted or renamed. See the ingest_failures table.
+Loading price history ...
+  1,364,731 rows
+  no fundamentals table yet — run fetch_fundamentals.py
+  benchmark loaded
+Scoring ...
+  330 stocks qualify today
+
+  scored 1,874, skipped 208 (too little history)
+  took 17 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      626
+  ... and beating the index          511
+  ... and within 15% of high         440
+  ... and turnover over Rs8cr        330
+  ... and moves at least 1.8%/day    322
+  ... and not over-extended          294
+======================================================
+
+  By size (after all filters):
+    large       57
+    mid         74
+    small      159
+    micro        3
+
+Done. The dashboard will now load instantly.
+Fetching news for 150 companies (~3 minutes).
+These are the highest-scoring stocks — the only ones that could
+appear in a shortlist. Ctrl+C is safe.
+
+    10/150   49 new headlines
+    20/150   98 new headlines
+    30/150   164 new headlines
+    40/150   229 new headlines
+    50/150   288 new headlines
+    60/150   344 new headlines
+    70/150   416 new headlines
+    80/150   492 new headlines
+    90/150   566 new headlines
+   100/150   643 new headlines
+   110/150   728 new headlines
+   120/150   788 new headlines
+   130/150   871 new headlines
+   140/150   963 new headlines
+   150/150   1071 new headlines
+
+================================================
+  New headlines   : 1071
+  Already had     : 710
+  Failed          : 0
+  Purged (>45d)  : 995
+  Total stored    : 1346
+================================================
+
+Next: python rank.py  (so catalyst scores pick these up)
+Loading price history ...
+  1,364,731 rows
+  no fundamentals table yet — run fetch_fundamentals.py
+  benchmark loaded
+Scoring ...
+  330 stocks qualify today
+
+  scored 1,874, skipped 208 (too little history)
+  took 18 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      626
+  ... and beating the index          511
+  ... and within 15% of high         440
+  ... and turnover over Rs8cr        330
+  ... and moves at least 1.8%/day    322
+  ... and not over-extended          294
+======================================================
+
+  By size (after all filters):
+    large       57
+    mid         74
+    small      159
+    micro        3
+
+Done. The dashboard will now load instantly.
+RUN FINISHED: 06-08-2026 11:56:51.90 
+ 
+============================================ 
+RUN STARTED: 06-08-2026 16:08:04.46 
+Getting the list of listed companies ...
+  trying nsearchives.nseindia.com ...
+  got 2397 rows
+  2078 equity symbols in the universe
+
+2083 stocks already have data.
+209 still to fetch. Roughly 0 minutes.
+
+Safe to stop with Ctrl+C — rerun and it continues.
+
+  [  1/11] 3BBLACKBIO ... (0 done, 0 failed)
+  [  2/11] ASTAR ... (20 done, 0 failed, ~1 min left)
+  [  3/11] CMLL ... (40 done, 0 failed, ~1 min left)
+  [  4/11] EXCELSOFT ... (60 done, 0 failed, ~1 min left)
+  [  5/11] HBESD ... (80 done, 0 failed, ~1 min left)
+  [  6/11] KOTIC ... (100 done, 0 failed, ~1 min left)
+  [  7/11] MENNPIS ... (120 done, 0 failed, ~0 min left)
+  [  8/11] PAUSHAKLTD ... (140 done, 0 failed, ~0 min left)
+  [  9/11] SAATVIKGL ... (160 done, 0 failed, ~0 min left)
+  [ 10/11] STUDDS ... (180 done, 0 failed, ~0 min left)
+  [ 11/11] VISL ... (200 done, 0 failed)
+
+  fetched 209, failed 0, 1,004 new rows
+
+========================================================
+  UNIVERSE STATUS
+========================================================
+  Companies tracked      : 2,082
+  Marked inactive        : 2
+  With price data        : 2,083
+  With enough history    : 1,875  (screenable)
+  Total price rows       : 1,364,731
+  Date range             : 2021-08-06 to 2026-08-06
+  Database size          : 204 MB
+========================================================
+
+  2 symbols failed 3+ times and were switched off.
+  Usually delisted or renamed. See the ingest_failures table.
+Nothing to fetch — every stock already has fundamentals.
+
+==========================================================
+  FUNDAMENTALS COVERAGE
+==========================================================
+  Earnings growth       1597 of 2082  (  77%)
+  Revenue growth        2003 of 2082  (  96%)
+  Operating margin      2075 of 2082  ( 100%)
+  Debt to equity        1868 of 2082  (  90%)
+  Return on equity      1312 of 2082  (  63%)
+  P/E ratio             1787 of 2082  (  86%)
+  Sector                2075 of 2082  ( 100%)
+
+  Warning signs already visible:
+    Loss-making (negative margin)     201
+    Heavily indebted (D/E over 2x)    126
+    Shrinking revenue                 462
+==========================================================
+
+  NOT available from this source: promoter pledging, promoter
+  holding changes, auditor resignations. Those need BSE filings.
+
+Next: python rank.py
+Loading price history ...
+  1,364,731 rows
+  fundamentals for 2,082 companies
+  benchmark loaded
+Scoring ...
+  167 stocks qualify today
+
+  scored 1,874, skipped 208 (too little history)
+  took 21 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      626
+  ... and beating the index          511
+  ... and within 15% of high         440
+  ... and turnover over Rs8cr        330
+  ... and moves at least 1.8%/day    322
+  ... and not over-extended          294
+======================================================
+
+  By size (after all filters):
+    large       57
+    mid         74
+    small      159
+    micro        3
+
+======================================================
+  HOW MUCH THE LIST CHANGED SINCE LAST RUN
+======================================================
+  Held their place : 319
+  New today        : 11
+  Dropped off      : 11
+    gone: BHEL, CREDITACC, ENTERO, INDGN, JKPAPER, KIMS, MANORAMA, MARICO
+
+  97% of yesterday's list is still there.
+  For a two-month hold you want this high. Below about 70%
+  the screen is reacting to noise rather than trend.
+======================================================
+
+Done. The dashboard will now load instantly.
+Fetching news for 150 companies (~3 minutes).
+These are the highest-scoring stocks — the only ones that could
+appear in a shortlist. Ctrl+C is safe.
+
+    10/150   64 new headlines
+    20/150   116 new headlines
+    30/150   175 new headlines
+    40/150   245 new headlines
+    50/150   316 new headlines
+    60/150   388 new headlines
+    70/150   469 new headlines
+    80/150   551 new headlines
+    90/150   630 new headlines
+   100/150   723 new headlines
+   110/150   803 new headlines
+   120/150   901 new headlines
+   130/150   997 new headlines
+   140/150   1104 new headlines
+   150/150   1202 new headlines
+
+================================================
+  New headlines   : 1202
+  Already had     : 592
+  Failed          : 0
+  Purged (>45d)  : 1007
+  Total stored    : 1541
+================================================
+
+Next: python rank.py  (so catalyst scores pick these up)
+Loading price history ...
+  1,364,731 rows
+  fundamentals for 2,082 companies
+  benchmark loaded
+Scoring ...
+  167 stocks qualify today
+
+  scored 1,874, skipped 208 (too little history)
+  took 20 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      626
+  ... and beating the index          511
+  ... and within 15% of high         440
+  ... and turnover over Rs8cr        330
+  ... and moves at least 1.8%/day    322
+  ... and not over-extended          294
+======================================================
+
+  By size (after all filters):
+    large       57
+    mid         74
+    small      159
+    micro        3
+
+======================================================
+  HOW MUCH THE LIST CHANGED SINCE LAST RUN
+======================================================
+  Held their place : 319
+  New today        : 11
+  Dropped off      : 11
+    gone: BHEL, CREDITACC, ENTERO, INDGN, JKPAPER, KIMS, MANORAMA, MARICO
+
+  97% of yesterday's list is still there.
+  For a two-month hold you want this high. Below about 70%
+  the screen is reacting to noise rather than trend.
+======================================================
+
+Done. The dashboard will now load instantly.
+
+########## WEEKLY (7 trading days) ##########
+Window: 7 trading days (2026-07-29 to 2026-08-06)
+A stock needs 3+ qualifying days to make the monthly list.
+
+340 stocks qualified at least 3 times.
+
+==============================================================
+  WEEKLY SHORTLIST — 340 stocks
+==============================================================
+
+==============================================================
+  Took 5 seconds
+
+########## MONTHLY (30 trading days) ##########
+Window: 30 trading days (2026-06-26 to 2026-08-06)
+A stock needs 15+ qualifying days to make the monthly list.
+
+318 stocks qualified at least 15 times.
+
+==============================================================
+  MONTHLY SHORTLIST — 318 stocks
+==============================================================
+
+==============================================================
+  Took 5 seconds
+
+==============================================================
+  IF YOU HAD BOUGHT EVERY PICK — last 7 days
+  2026-07-29 to 2026-08-06
+==============================================================
+  Stocks picked        : 376
+  Winners / losers     : 238 / 138
+  Win rate             : 63%
+  Average return       : +2.10%
+  Median return        : +1.48%
+  Invested             : Rs3,760,000
+  Profit / loss        : Rs78,834
+  Portfolio return     : +2.10%
+  Nifty over same time : +1.37%
+  Excess               : +0.73 points
+
+  Best  : MOREPENLAB +33.0%
+  Worst : THANGAMAYL -18.8%
+
+  Average best moment  : +5.4%
+  Average worst moment : -3.4%
+
+  The picks roughly matched the index (+0.7 points). The screen is not adding much beyond market direction here.
+==============================================================
+
+==============================================================
+  IF YOU HAD BOUGHT EVERY PICK — last 30 days
+  2026-06-26 to 2026-08-06
+==============================================================
+  Stocks picked        : 545
+  Winners / losers     : 304 / 241
+  Win rate             : 56%
+  Average return       : +2.50%
+  Median return        : +1.07%
+  Invested             : Rs5,450,000
+  Profit / loss        : Rs136,166
+  Portfolio return     : +2.50%
+  Nifty over same time : +2.22%
+  Excess               : +0.28 points
+
+  Best  : ATHERENERG +48.6%
+  Worst : TRIVENI -44.3%
+
+  Average best moment  : +11.2%
+  Average worst moment : -7.6%
+
+  The picks roughly matched the index (+0.3 points). The screen is not adding much beyond market direction here.
+==============================================================
+
+  Entry is the next day's OPEN after a pick, never the same day's
+  close — you cannot buy a price that has already printed. No
+  brokerage or slippage is deducted, so real results would be
+  slightly worse.
+RUN FINISHED: 06-08-2026 16:15:30.18 
+ 
+============================================ 
+RUN STARTED: 06-08-2026 16:30:01.30 
+^C 
+============================================ 
+RUN STARTED: 06-08-2026 20:38:35.15 
+$RAMBHAJO.NS: possibly delisted; no price data found  (1d 2026-08-01 -> 2026-08-07)
+
+1 Failed download:
+['RAMBHAJO.NS']: possibly delisted; no price data found  (1d 2026-08-01 -> 2026-08-07)
+Getting the list of listed companies ...
+  trying nsearchives.nseindia.com ...
+  got 2397 rows
+  2078 equity symbols in the universe
+
+2083 stocks already have data.
+209 still to fetch. Roughly 0 minutes.
+
+Safe to stop with Ctrl+C — rerun and it continues.
+
+  [  1/11] 3BBLACKBIO ... (0 done, 0 failed)
+  [  2/11] ASTAR ... (20 done, 0 failed, ~1 min left)
+  [  3/11] CMLL ... (40 done, 0 failed, ~1 min left)
+  [  4/11] EXCELSOFT ... (60 done, 0 failed, ~1 min left)
+  [  5/11] HBESD ... (80 done, 0 failed, ~1 min left)
+  [  6/11] KOTIC ... (100 done, 0 failed, ~1 min left)
+  [  7/11] MENNPIS ... (120 done, 0 failed, ~0 min left)
+  [  8/11] PAUSHAKLTD ... (140 done, 0 failed, ~0 min left)
+  [  9/11] SAATVIKGL ... (159 done, 1 failed, ~0 min left)
+  [ 10/11] STUDDS ... (179 done, 1 failed, ~0 min left)
+  [ 11/11] VISL ... (199 done, 1 failed)
+
+  fetched 208, failed 1, 1,000 new rows
+
+========================================================
+  UNIVERSE STATUS
+========================================================
+  Companies tracked      : 2,082
+  Marked inactive        : 2
+  With price data        : 2,083
+  With enough history    : 1,875  (screenable)
+  Total price rows       : 1,364,731
+  Date range             : 2021-08-06 to 2026-08-06
+  Database size          : 205 MB
+========================================================
+
+  2 symbols failed 3+ times and were switched off.
+  Usually delisted or renamed. See the ingest_failures table.
+Nothing to fetch — every stock already has fundamentals.
+
+==========================================================
+  FUNDAMENTALS COVERAGE
+==========================================================
+  Earnings growth       1597 of 2082  (  77%)
+  Revenue growth        2003 of 2082  (  96%)
+  Operating margin      2075 of 2082  ( 100%)
+  Debt to equity        1868 of 2082  (  90%)
+  Return on equity      1312 of 2082  (  63%)
+  P/E ratio             1787 of 2082  (  86%)
+  Sector                2075 of 2082  ( 100%)
+
+  Warning signs already visible:
+    Loss-making (negative margin)     201
+    Heavily indebted (D/E over 2x)    126
+    Shrinking revenue                 462
+==========================================================
+
+  NOT available from this source: promoter pledging, promoter
+  holding changes, auditor resignations. Those need BSE filings.
+
+Next: python rank.py
+Loading price history ...
+  1,364,731 rows
+  fundamentals for 2,082 companies
+  benchmark loaded
+Scoring ...
+  167 stocks qualify today
+
+  scored 1,874, skipped 208 (too little history)
+  took 24 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      626
+  ... and beating the index          511
+  ... and within 15% of high         440
+  ... and turnover over Rs8cr        330
+  ... and moves at least 1.8%/day    322
+  ... and not over-extended          294
+======================================================
+
+  By size (after all filters):
+    large       57
+    mid         74
+    small      159
+    micro        3
+
+======================================================
+  HOW MUCH THE LIST CHANGED SINCE LAST RUN
+======================================================
+  Held their place : 319
+  New today        : 11
+  Dropped off      : 11
+    gone: BHEL, CREDITACC, ENTERO, INDGN, JKPAPER, KIMS, MANORAMA, MARICO
+
+  97% of yesterday's list is still there.
+  For a two-month hold you want this high. Below about 70%
+  the screen is reacting to noise rather than trend.
+======================================================
+
+Done. The dashboard will now load instantly.
+Fetching news for 150 companies (~3 minutes).
+These are the highest-scoring stocks — the only ones that could
+appear in a shortlist. Ctrl+C is safe.
+
+    10/150   67 new headlines
+    20/150   117 new headlines
+    30/150   170 new headlines
+    40/150   239 new headlines
+    50/150   307 new headlines
+    60/150   384 new headlines
+    70/150   446 new headlines
+    80/150   525 new headlines
+    90/150   598 new headlines
+   100/150   673 new headlines
+   110/150   747 new headlines
+   120/150   817 new headlines
+   130/150   880 new headlines
+   140/150   967 new headlines
+   150/150   1040 new headlines
+
+================================================
+  New headlines   : 1040
+  Already had     : 754
+  Failed          : 0
+  Purged (>45d)  : 997
+  Total stored    : 1584
+================================================
+
+Next: python rank.py  (so catalyst scores pick these up)
+Loading price history ...
+  1,364,731 rows
+  fundamentals for 2,082 companies
+  benchmark loaded
+Scoring ...
+  167 stocks qualify today
+
+  scored 1,874, skipped 208 (too little history)
+  took 18 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      626
+  ... and beating the index          511
+  ... and within 15% of high         440
+  ... and turnover over Rs8cr        330
+  ... and moves at least 1.8%/day    322
+  ... and not over-extended          294
+======================================================
+
+  By size (after all filters):
+    large       57
+    mid         74
+    small      159
+    micro        3
+
+======================================================
+  HOW MUCH THE LIST CHANGED SINCE LAST RUN
+======================================================
+  Held their place : 319
+  New today        : 11
+  Dropped off      : 11
+    gone: BHEL, CREDITACC, ENTERO, INDGN, JKPAPER, KIMS, MANORAMA, MARICO
+
+  97% of yesterday's list is still there.
+  For a two-month hold you want this high. Below about 70%
+  the screen is reacting to noise rather than trend.
+======================================================
+
+Done. The dashboard will now load instantly.
+
+########## WEEKLY (7 trading days) ##########
+Window: 7 trading days (2026-07-29 to 2026-08-06)
+A stock needs 3+ qualifying days to make the monthly list.
+
+340 stocks qualified at least 3 times.
+
+==============================================================
+  WEEKLY SHORTLIST — 340 stocks
+==============================================================
+
+==============================================================
+  Took 4 seconds
+
+########## MONTHLY (30 trading days) ##########
+Window: 30 trading days (2026-06-26 to 2026-08-06)
+A stock needs 15+ qualifying days to make the monthly list.
+
+318 stocks qualified at least 15 times.
+
+==============================================================
+  MONTHLY SHORTLIST — 318 stocks
+==============================================================
+
+==============================================================
+  Took 4 seconds
+
+==============================================================
+  IF YOU HAD BOUGHT EVERY PICK — last 7 days
+  2026-07-29 to 2026-08-06
+==============================================================
+  Stocks picked        : 376
+  Winners / losers     : 238 / 138
+  Win rate             : 63%
+  Average return       : +2.10%
+  Median return        : +1.48%
+  Invested             : Rs3,760,000
+  Profit / loss        : Rs78,834
+  Portfolio return     : +2.10%
+  Nifty over same time : +1.37%
+  Excess               : +0.73 points
+
+  Best  : MOREPENLAB +33.0%
+  Worst : THANGAMAYL -18.8%
+
+  Average best moment  : +5.4%
+  Average worst moment : -3.4%
+
+  The picks roughly matched the index (+0.7 points). The screen is not adding much beyond market direction here.
+==============================================================
+
+==============================================================
+  IF YOU HAD BOUGHT EVERY PICK — last 30 days
+  2026-06-26 to 2026-08-06
+==============================================================
+  Stocks picked        : 545
+  Winners / losers     : 304 / 241
+  Win rate             : 56%
+  Average return       : +2.50%
+  Median return        : +1.07%
+  Invested             : Rs5,450,000
+  Profit / loss        : Rs136,166
+  Portfolio return     : +2.50%
+  Nifty over same time : +2.22%
+  Excess               : +0.28 points
+
+  Best  : ATHERENERG +48.6%
+  Worst : TRIVENI -44.3%
+
+  Average best moment  : +11.2%
+  Average worst moment : -7.6%
+
+  The picks roughly matched the index (+0.3 points). The screen is not adding much beyond market direction here.
+==============================================================
+
+  Entry is the next day's OPEN after a pick, never the same day's
+  close — you cannot buy a price that has already printed. No
+  brokerage or slippage is deducted, so real results would be
+  slightly worse.
+RUN FINISHED: 06-08-2026 20:46:06.79 
+ 
+============================================ 
+RUN STARTED: 07-08-2026  9:19:11.20 
+============================================ 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TMLCV.NS"}}}
+$TMLCV.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TMLCV.NS']: possibly delisted; no timezone found
+Loaded 45 instruments.
+
+  1/209: 20MICRONS, 21STCENMGM, 360ONE, 3BBLACKBIO, 3IINFOLTD, 3MINDIA, 3PLAND, 5PAISA, 63MOONS, A2ZINFRA
+  2/209: AAATECH, AADHARHFC, AAKASH, AARNAV, AARON, AARTIDRUGS, AARTIIND, AARTIPHARM, AARTISURF, AARVI
+  3/209: AASTHA, AAVAS, ABB, ABBOTINDIA, ABCAPITAL, ABCOTS, ABDL, ABFRL, ABINFRA, ABLBL
+  4/209: ABMINTLLTD, ABMKNO, ABREL, ABSLAMC, ACC, ACCELYA, ACE, ACEINTEG, ACI, ACL
+  5/209: ACMESOLAR, ACSTECH, ACUTAAS, ADANIENSOL, ADANIENT, ADANIGREEN, ADANIPORTS, ADANIPOWER, ADFFOODS, ADL
+  6/209: ADOR, ADROITINFO, ADSL, ADVAIT, ADVANCE, ADVANIHOTR, ADVENTHTL, ADVENZYMES, AEGISLOG, AEGISVOPAK
+  7/209: AEPL, AEQUS, AEROENTER, AEROFLEX, AERONEU, AEROPLANE, AETHER, AFCONS, AFFLE, AFIL
+  8/209: AFSL, AGARIND, AGARWALEYE, AGI, AGIIL, AGL, AGROPHOS, AHCL, AHLADA, AHLEAST
+  9/209: AHLUCONT, AIAENG, AIIL, AIRAN, AIROLAM, AJANTPHARM, AJAXENGG, AJMERA, AJOONI, AKASH
+  10/209: AKCAPIT, AKG, AKI, AKSHAR, AKUMS, ALANKIT, ALBERTDAVD, ALEMBICLTD, ALGOQUANT, ALICON
+  11/209: ALIVUS, ALKEM, ALKYLAMINE, ALLCARGO, ALLDIGI, ALLTIME, ALMONDZ, ALOKINDS, ALPA, ALPHAGEO
+  12/209: ALPINETEX, AMAGI, AMBALALSA, AMBER, AMBICAAGAR, AMBIKCO, AMBUJACEM, AMDIND, AMJLAND, AMNPLST
+  13/209: AMRUTANJAN, ANANDRATHI, ANANTRAJ, ANDHRAPAP, ANDHRSUGAR, ANGELONE, ANIKINDS, ANMOL, ANTELOPUS, ANTGRAPHIC
+  14/209: ANTHEM, ANUHPHR, ANUP, ANURAS, APARINDS, APCL, APCOTEXIND, APEX, APLAPOLLO, APLLTD
+  15/209: APOLLO, APOLLOHOSP, APOLLOPIPE, APOLLOTYRE, APOLSINHOT, APTUS, AQYLON, ARCHIDPLY, ARCHIES, ARE&M
+  16/209: ARENTERP, ARFIN, ARIES, ARIHANT, ARIHANTCAP, ARIHANTSUP, ARIS, ARKADE, ARMANFIN, AROGRANITE
+  17/209: ARSSBL, ARTEMISMED, ARTNIRMAN, ARVEE, ARVIND, ARVINDFASN, ARVSMART, ASAHIINDIA, ASAL, ASALCBR
+  18/209: ASHAPURMIN, ASHIANA, ASHIKAG, ASHIMASYN, ASHOKA, ASHOKAMET, ASHOKLEY, ASIANENE, ASIANHOTNR, ASIANPAINT
+  19/209: ASIANTILES, ASKAUTOLTD, ASPINWALL, ASTAR, ASTEC, ASTERDM, ASTRAL, ASTRAMICRO, ASTRAZEN, ATALREAL
+  20/209: ATAM, ATGL, ATHERENERG, ATL, ATLANTAA, ATLANTAELE, ATLASCYCLE, ATUL, ATULAUTO, AUBANK
+  21/209: AURIONPRO, AUROPHARMA, AURUM, AURUS, AUTOAXLES, AVADHSUGAR, AVALON, AVANTEL, AVANTIFEED, AVL
+  22/209: AVONMORE, AVROIND, AVTNPL, AWFIS, AWHCL, AWL, AXISBANK, AXISCADES, AXITA, AYE
+  23/209: AYMSYNTEX, AZAD, BAGFILMS, BAIDFIN, BAJAJ-AUTO, BAJAJCON, BAJAJELEC, BAJAJFINSV, BAJAJHCARE, BAJAJHFL
+  24/209: BAJAJHIND, BAJAJHLDNG, BAJAJINDEF, BAJAJST, BAJEL, BAJFINANCE, BALAJEE, BALAJITELE, BALAMINES, BALAXI
+  25/209: BALKRISHNA, BALKRISIND, BALMLAWRIE, BALPHARMA, BALRAMCHIN, BALUFORGE, BANARBEADS, BANARISUG, BANCOINDIA, BANDHANBNK
+  26/209: BANG, BANKBARODA, BANKINDIA, BANSALWIRE, BANSWRAS, BASF, BATAINDIA, BATLIBOI, BAYERCROP, BBL
+  27/209: BBOX, BBTC, BBTCL, BCG, BCLIND, BCONCEPTS, BCPL, BDL, BEARDSELL, BECTORFOOD
+  28/209: BEDMUTHA, BEEKAY, BEL, BELLACASA, BELRISE, BEML, BENGALASM, BEPL, BERGEPAINT, BESTAGRO
+  29/209: BETA, BFINVEST, BFUTILITIE, BHAGCHEM, BHARATCOAL, BHARATFORG, BHARATRAS, BHARATSE, BHARATWIRE, BHARTIARTL
+  30/209: BHARTIHEXA, BHEL, BI, BIGBLOC, BIKAJI, BIL, BIMETAL, BIOCON, BIOFILCHEM, BIRLACORPN
+  31/209: BIRLAMONEY, BIRLANU, BIRLAPREC, BLACKBUCK, BLAL, BLBLIMITED, BLIL, BLKASHYAP, BLS, BLSE
+  32/209: BLUEDART, BLUEJET, BLUESTARCO, BLUESTONE, BLUSPRING, BMWVENTLTD, BOHRAIND, BOMDYEING, BONLON, BORANA
+  33/209: BOROLTD, BORORENEW, BOROSCI, BOSCH-HCIL, BOSCHLTD, BPCL, BPL, BRIGADE, BRIGHOTEL, BRITANNIA
+  34/209: BRNL, BSE, BSL, BSOFT, BTML, BUILDPRO, BUTTERFLY, BVCL, CAMLINFINE, CAMPUS
+  35/209: CAMS, CANBK, CANFINHOME, CANHLIFE, CANTABIL, CAPACITE, CAPILLARY, CAPITALSFB, CAPLIPOINT, CAPTRUST
+  36/209: CARBORUNIV, CARERATING, CARRARO, CARTRADE, CARYSIL, CASTROLIND, CCAVENUE, CCCL, CCHHL, CCL
+  37/209: CDSL, CEATLTD, CEIGALL, CEINSYS, CELEBRITY, CELLO, CEMPRO, CENTENKA, CENTEXT, CENTRALBK
+  38/209: CENTRUM, CENTUM, CENTURYPLY, CERA, CESC, CEWATER, CGCL, CGPOWER, CHALET, CHAMBLFERT
+  39/209: CHEMPLASTS, CHENNPETRO, CHEVIOT, CHOICEIN, CHOLAFIN, CHOLAHLDNG, CIEINDIA, CIFL, CINELINE, CINEVISTA
+  40/209: CIPLA, CLEAN, CLEANMAX, CLSEL, CMLL, CMPDI, CMRGREEN, CMSINFO, CNL, COALINDIA
+  41/209: COASTCORP, COCHINSHIP, COCKERILL, COFORGE, COHANCE, COLPAL, COMFINTE, COMPUSOFT, COMSYN, CONCOR
+  42/209: CONCORDBIO, CONFIPET, CONTROLPR, CORALFINAC, CORDELIA, COROMANDEL, CORONA, COSMOFIRST, COUNCODOS, CPEDU
+  43/209: CPL, CPPLUS, CRAFTSMAN, CRAMC, CREATIVEYE, CREDITACC, CREST, CRISIL, CRIZAC, CROMPTON
+  44/209: CROWN, CSBBANK, CSLFINANCE, CSM, CTE, CUB, CUBEXTUB, CUMMINSIND, CUPID, CURAA
+  45/209: CYIENT, CYIENTDLM, DABUR, DALBHARAT, DALMIASUG, DAMCAPITAL, DANGEE, DATAMATICS, DATAPATTNS, DAVANGERE
+  46/209: DBCORP, DBL, DBOL, DCAL, DCBBANK, DCI, DCMFINSERV, DCMSHRIRAM, DCMSRIND, DCW
+  47/209: DCXINDIA, DDEVPLSTIK, DECCANCE, DECNGOLD, DEEPAKFERT, DEEPAKNTR, DEEPINDS, DELHIVERY, DELTACORP, DELTAMAGNT
+  48/209: DEN, DENORA, DENTA, DEVIT, DEVX, DEVYANI, DGCONTENT, DHAMPURSUG, DHANBANK, DHANUKA
+  49/209: DHARMAJ, DHUNINV, DIAMINESQ, DIAMONDYD, DICIND, DIFFNKG, DIGIDRIVE, DIGITIDE, DIGJAMLMTD, DISAQ
+  50/209: DIVGIITTS, DIVISLAB, DIXON, DJML, DLF, DLINKINDIA, DMART, DMCC, DNAMEDIA, DODLA
+  51/209: DOLATALGO, DOLLAR, DOLPHIN, DOMS, DONEAR, DPABHUSHAN, DRAGARWQ, DRCSYSTEMS, DREAMFOLKS, DREDGECORP
+  52/209: DRREDDY, DSSL, DTIL, DUCON, DVL, DWARKESH, DYCL, DYNAMATECH, DYNPRO, E2E
+  53/209: EASEMYTRIP, EBGNG, ECLERX, EDELWEISS, EFCIL, EICHERMOT, EIDPARRY, EIEL, EIHAHOTELS, EIHOTEL
+  54/209: EIMCOELECO, EKC, ELANTAS, ELCIDIN, ELDEHSG, ELECON, ELECTCAST, ELECTHERM, ELGIEQUIP, ELGIRUBCO
+  55/209: ELIN, ELITECON, ELLEN, ELPROINTL, EMAMILTD, EMBDL, EMCURE, EMIL, EMKAY, EMMVEE
+  56/209: EMSLIMITED, EMUDHRA, ENDURANCE, ENERGYDEV, ENGINERSIN, ENIL, ENRIN, ENTERO, EPACK, EPACKPEB
+  57/209: EPIGRAL, EPL, EQUITASBNK, ERIS, ESABINDIA, ESAFSFB, ESCORTS, ESSARSHPNG, ESTER, ETERNAL
+  58/209: ETHOSLTD, EUREKAFORB, EUROBOND, EUROPRATIK, EVEREADY, EXCELINDUS, EXCELSOFT, EXICOM, EXIDEIND, EXPLEOSOL
+  59/209: EXXARO, FABTECH, FACT, FAZE3Q, FCL, FCSSOFT, FDC, FEDDERSHOL, FEDERALBNK, FEDFINA
+  60/209: FERMENTA, FIBERWEB, FIEMIND, FILATEX, FINCABLES, FINEORG, FINKURVE, FINOPB, FINPIPE, FIRSTCRY
+  61/209: FISCHER, FIVESTAR, FLAIR, FLUOROCHEM, FMGOETZE, FOODSIN, FORCEMOT, FORTIS, FOSECOIND, FRACTAL
+  62/209: FRONTSP, FSL, FUSION, GABRIEL, GAEL, GAIL, GALAPREC, GALAXYSURF, GALLANTT, GANDHAR
+  63/209: GANDHITUBE, GANECOS, GANESHCP, GANESHHOU, GANGESSECU, GARFIBRES, GARUDA, GATECH, GATEWAY, GAYAHWS
+  64/209: GCSL, GEEKAYWIRE, GEMAROMA, GENCON, GENESYS, GENUSPAPER, GENUSPOWER, GEOJITFSL, GESHIP, GFLLIMITED
+  65/209: GHCL, GHCLTEXTIL, GICHSGFIN, GICL, GICRE, GILLANDERS, GILLETTE, GIPCL, GKENERGY, GKSL
+  66/209: GKWLIMITED, GLAND, GLAXO, GLENMARK, GLOBAL, GLOBALVECT, GLOBE, GLOBECIVIL, GLOBUSSPR, GLOSTERLTD
+  67/209: GMBREW, GMDCLTD, GMMPFAUDLR, GMRAIRPORT, GMRP&UI, GNA, GNFC, GNRL, GOACARBON, GOCLCORP
+  68/209: GOCOLORS, GODAVARIB, GODFRYPHLP, GODIGIT, GODREJAGRO, GODREJCP, GODREJIND, GODREJPROP, GOKEX, GOKUL
+  69/209: GOKULAGRO, GOLDIAM, GOODLUCK, GOODYEAR, GOPAL, GOYALALUM, GPIL, GPPL, GPTHEALTH, GPTINFRA
+  70/209: GRANDOAK, GRANULES, GRAPHITE, GRASIM, GRAUWEIL, GRAVISSHO, GRAVITA, GREAVESCOT, GREENLAM, GREENPANEL
+  71/209: GREENPLY, GREENPOWER, GRINDWELL, GRINFRA, GRMOVER, GROBTEA, GROWW, GRPLTD, GRSE, GRWRHITECH
+  72/209: GSFC, GSLSU, GSPCROP, GSS, GTL, GTLINFRA, GTPL, GUFICBIO, GUJALKALI, GUJAPOLLO
+  73/209: GUJENERGY, GUJRAFFIA, GUJTHEM, GULFOILLUB, GULPOLY, GVPIL, GVPTECH, GVT&D, GYFTR, HAL
+  74/209: HALDER, HALEOSLABS, HAPPSTMNDS, HAPPYFORGE, HARDWYN, HARIOMPIPE, HARRMALAYA, HARSHA, HATHWAY, HATSUN
+  75/209: HAVELLS, HAVISHA, HAWKINCOOK, HBESD, HBLENGINE, HBSL, HCC, HCG, HCL-INSYS, HCLTECH
+  76/209: HDBFS, HDFCAMC, HDFCBANK, HDFCLIFE, HEADSUP, HEALTHX, HECPROJECT, HEG, HEIDELBERG, HEMIPROP
+  77/209: HERANBA, HERITGFOOD, HEROMOTOCO, HESTERBIO, HEXATRADEX, HEXT, HFCL, HGINFRA, HGM, HGS
+  78/209: HIKAL, HILINFRA, HIMATSEIDE, HINDALCO, HINDCOMPOS, HINDCON, HINDCOPPER, HINDOILEXP, HINDPETRO, HINDUNILVR
+  79/209: HINDWAREAP, HINDZINC, HIRECT, HISARMETAL, HITECH, HLEGLAS, HLVLTD, HMAAGRO, HMVL, HNDFDS
+  80/209: HOMEFIRST, HONASA, HONAUT, HONDAPOWER, HPAL, HPIL, HPL, HSCL, HTMEDIA, HUBTOWN
+  81/209: HUDCO, HUHTAMAKI, HYUNDAI, ICDSLTD, ICEMAKE, ICICIAMC, ICICIBANK, ICICIGI, ICICIPRULI, ICIL
+  82/209: ICRA, IDBI, IDEA, IDFCFIRSTB, IEX, IFBIND, IFCI, IFGLEXPOR, IGARASHI, IGCL
+  83/209: IGIL, IGL, IGPL, IIFL, IIFLCAPS, IITL, IKIO, IKS, IMAGICAA, IMFA
+  84/209: IMPAL, INA, INCREDIBLE, INDBANK, INDGN, INDHOTEL, INDIACEM, INDIAGLYCO, INDIAMART, INDIANB
+  85/209: INDIANCARD, INDIANHUME, INDIASHLTR, INDIGO, INDIGOPNTS, INDIQUBE, INDNIPPON, INDOBORAX, INDOCO, INDOFARM
+  86/209: INDOMIM, INDORAMA, INDOSTAR, INDOTHAI, INDOUS, INDPRUD, INDRAMEDCO, INDSWFTLAB, INDTERRAIN, INDUSINDBK
+  87/209: INDUSTOWER, INFOBEAN, INFOMEDIA, INFY, INGERRAND, INNOVACAP, INNOVANA, INNOVISION, INOXINDIA, INOXWIND
+  88/209: INSECTICID, INTELLECT, INTENTECH, INTERARCH, INTLCONV, INVENTURE, IOB, IOC, IOLCP, IONEXCHANG
+  89/209: IPCALAB, IPL, IRB, IRCON, IRCTC, IREDA, IRFC, IRIS, IRISDOREME, IRMENERGY
+  90/209: ISFT, ISGEC, ISHANCH, ITC, ITCHOTELS, ITDC, ITI, IVALUE, IVC, IWP
+  91/209: IXIGO, IZMO, J&KBANK, JAGRAN, JAGSNPHARM, JAICORPLTD, JAINREC, JAIPURKURT, JAMNAAUTO, JARO
+  92/209: JASH, JAYAGROGN, JAYBARMARU, JAYKAY, JAYNECOIND, JAYSREETEA, JBCHEPHARM, JBMA, JETFREIGHT, JGCHEM
+  93/209: JHS, JINDALPHOT, JINDALPOLY, JINDALSAW, JINDALSTEL, JINDRILL, JINDWORLD, JIOFIN, JISLDVREQS, JISLJALEQS
+  94/209: JITFINFRA, JKCEMENT, JKIL, JKLAKSHMI, JKPAPER, JKTYRE, JLHL, JMA, JMFINANCIL, JNKINDIA
+  95/209: JNPR, JPOLYINVST, JPPOWER, JSFB, JSL, JSLL, JSWCEMENT, JSWDULUX, JSWENERGY, JSWHL
+  96/209: JSWINFRA, JSWSTEEL, JTEKTINDIA, JTLIND, JUBLCPL, JUBLFOOD, JUBLINGREA, JUBLPHARMA, JUNIPER, JUSTDIAL
+  97/209: JWL, JYOTHYLAB, JYOTICNC, JYOTISTRUC, KABRAEXTRU, KAJARIACER, KALAMANDIR, KALPATARU, KALYANIFRG, KALYANKJIL
+  98/209: KAMAHOLD, KAMATHOTEL, KAMOPAINTS, KANANIIND, KANPRPLA, KANSAINER, KAPSTON, KARMAENG, KARURVYSYA, KAVDEFENCE
+  99/209: KAYA, KAYNES, KCP, KCPSUGIND, KDDL, KEC, KECL, KEEPLEARN, KEI, KELLTONTEC
+  100/209: KENNAMET, KERNEX, KEYFINSERV, KFINTECH, KHAICHEM, KHAITANLTD, KHANDSE, KICL, KIMS, KINGFA
+  101/209: KIOCL, KIRANVYPAR, KIRIINDUS, KIRLFER, KIRLOSBROS, KIRLOSENG, KIRLOSIND, KIRLPNU, KISSHT, KITEX
+  102/209: KKCL, KLBRENG-B, KMEW, KMSUGAR, KNACK, KNAGRI, KNRCON, KOHINOOR, KOKUYOCMLN, KOLTEPATIL
+  103/209: KOTAKBANK, KOTARISUG, KOTHARIPET, KOTHARIPRO, KOTIC, KOVAI, KPEL, KPIGREEN, KPIL, KPITTECH
+  104/209: KPL, KPRMILL, KRBL, KREBSBIO, KRISHANA, KRISHIVAL, KRISHNADEF, KRITIKA, KRITINUT, KRONOX
+  105/209: KROSS, KRSNAA, KRYSTAL, KSB, KSCL, KSHINTL, KSL, KSOLVES, KSR, KTKBANK
+  106/209: KUANTUM, KUSUMGAR, KWIL, LAGNAM, LAHOTIOV, LAL, LALPATHLAB, LAMBODHARA, LANCORHOL, LANDMARK
+  107/209: LANDSMILL, LAOPALA, LASA, LASERPOWER, LATENTVIEW, LAURUSLABS, LAXMICOT, LAXMIDENTL, LCCINFOTEC, LCL
+  108/209: LEMERITE, LEMONTREE, LENSKART, LEXUS, LFIC, LGBBROSLTD, LGEINDIA, LGHL, LIBAS, LIBERTSHOE
+  109/209: LICHSGFIN, LICI, LIKHITHA, LINC, LINCOLN, LINDEINDIA, LLOYDSENGG, LLOYDSENT, LLOYDSME, LMW
+  110/209: LODHA, LORDSCHLO, LOTUSDEV, LOTUSEYE, LOVABLE, LOYALTEX, LPDC, LT, LTF, LTFOODS
+  111/209: LTM, LTTS, LUMAXIND, LUMAXTECH, LUPIN, LUXIND, LXCHEM, M&M, M&MFIN, MAANALU
+  112/209: MACPOWER, MADHAV, MADHAVIPL, MADRASFERT, MAFATIND, MAGADSUGAR, MAGNUM, MAHABANK, MAHAPEXLTD, MAHASTEEL
+  113/209: MAHEPC, MAHLIFE, MAHLOG, MAHSCOOTER, MAHSEAMLES, MAITHANALL, MAJESAUT, MALLCOM, MALUPAPER, MAMATA
+  114/209: MANAKALUCO, MANAKCOAT, MANAKSIA, MANAKSTEEL, MANALIPETC, MANAPPURAM, MANBA, MANCREDIT, MANGALAM, MANGLMCEM
+  115/209: MANINDS, MANINFRA, MANIPALHOS, MANKIND, MANOMAY, MANORAMA, MANYAVAR, MAPMYINDIA, MARATHON, MARICO
+  116/209: MARINE, MARKOLINES, MARKSANS, MARSONS, MARUTI, MASFIN, MASTEK, MASTERTR, MATRIMONY, MAXESTATES
+  117/209: MAXHEALTH, MAXIND, MAYURUNIQ, MAZDOCK, MBAPL, MBEL, MCCHRLS-B, MCL, MCLOUD, MCX
+  118/209: MEDANTA, MEDIASSIST, MEDICAMEQ, MEDICO, MEDPLUS, MEESHO, MEGASTAR, MEIL, MENNPIS, MERCANTILE
+  119/209: MERCURYEV, METROBRAND, METROGLOBL, METROPOLIS, MFML, MFSL, MGL, MHLXMIRU, MHRIL, MIDHANI
+  120/209: MIDWESTLTD, MINDACORP, MINDTECK, MIRZAINT, MITTAL, MKPL, MMFL, MMP, MMTC, MOBIKWIK
+  121/209: MODIRUBBER, MODIS, MODTHREAD, MOHITIND, MOIL, MOKSH, MOL, MOLDTECH, MOLDTKPAC, MONARCH
+  122/209: MONEYBOXX, MONTECARLO, MOREPENLAB, MOSCHIP, MOTHERSON, MOTILALOFS, MOTISONS, MPHASIS, MPSLTD, MRF
+  123/209: MRPL, MSPL, MSTCLTD, MSUMI, MTNL, MUFIN, MUFTI, MUKANDLTD, MUKKA, MUNJALAU
+  124/209: MUNJALSHOW, MURUDCERA, MUTHOOTCAP, MUTHOOTFIN, MUTHOOTMF, MVELECTRO, MVGJL, MWL, NACLIND, NAGREEKCAP
+  125/209: NAGREEKEXP, NAHARCAP, NAHARINDUS, NAHARPOLY, NAHARSPING, NAM-INDIA, NARMADA, NATCAPSUQ, NATCOPHARM, NATHBIOGEN
+  126/209: NATIONALUM, NATIONSTD, NAUKRI, NAVA, NAVINFLUOR, NAVKARCORP, NAVNETEDUL, NAZARA, NBCC, NBIFIN
+  127/209: NCC, NCLIND, NDGL, NDL, NDLVENTURE, NDRAUTO, NDTV, NEAGI, NELCAST, NELCO
+  128/209: NEOGEN, NEPHROPLUS, NESCO, NESTLEIND, NETWEB, NETWORK18, NEULANDLAB, NEWGEN, NEXTMEDIA, NFL
+  129/209: NGLFINE, NH, NHPC, NIACL, NIBE, NIBL, NIITLTD, NIITMTS, NILAINFRA, NILASPACES
+  130/209: NILE, NILKAMAL, NIPPOBATRY, NIRAJISPAT, NIRLON, NITCO, NITINSPIN, NITIRAJ, NITTAGELA, NIVABUPA
+  131/209: NKIND, NLCINDIA, NMDC, NOCIL, NORBTEAEXP, NORTHARC, NOVARTIND, NPST, NRAIL, NRBBEARING
+  132/209: NSIL, NSLNISP, NTPC, NTPCGREEN, NUCLEUS, NURECA, NUVAMA, NUVOCO, NYKAA, OAL
+  133/209: OBCL, OBEROIRLTY, OFSS, OIL, OLAELEC, OLECTRA, OMAXE, OMINFRAL, OMNI, OMPOWER
+  134/209: ONEPOINT, ONESOURCE, ONGC, ONWARDTEC, OPTIEMUS, ORCHASP, ORCHPHARMA, ORICONENT, ORIENTALTL, ORIENTBELL
+  135/209: ORIENTCEM, ORIENTCER, ORIENTELEC, ORIENTHOT, ORIENTPPR, ORIENTTECH, ORISSAMINE, ORKLAINDIA, OSWALAGRO, OSWALGREEN
+  136/209: OSWALPUMPS, OSWALSEEDS, PACEDIGITK, PAGEIND, PAISALO, PAKKA, PALASHSECU, PANACEABIO, PANAMAPET, PANSARI
+  137/209: PAR, PARACABLES, PARADEEP, PARAGMILK, PARAS, PARASPETRO, PARKHOSPS, PARKHOTELS, PASHUPATI, PATANJALI
+  138/209: PATELENG, PATELRMART, PAUSHAKLTD, PAVNAIND, PAYTM, PCBL, PCJEWELLER, PDMJEPAPER, PDSL, PENIND
+  139/209: PERSISTENT, PETRONET, PFC, PFIZER, PFOCUS, PFS, PGEL, PGHH, PGHL, PGIL
+  140/209: PHOENIXLTD, PICCADIL, PIDILITIND, PIGL, PIIND, PILANIINVS, PINELABS, PIONEEREMB, PIRAMALFIN, PITTIENG
+  141/209: PIXTRANS, PKTEA, PLASTIBLEN, PLATIND, PML, PNB, PNBGILTS, PNBHOUSING, PNC, PNCINFRA
+  142/209: PNGJL, PNGSREVA, POCL, PODDARMENT, POKARNA, POLICYBZR, POLYCAB, POLYMED, POLYPLEX, PONNIERODE
+  143/209: POONAWALLA, POWERGRID, POWERICA, POWERINDIA, POWERMECH, PPLPHARMA, PRABHA, PRAENG, PRAJIND, PRAKASH
+  144/209: PRAKASHSTL, PRAVEG, PRAXIS, PRECAM, PRECOT, PRECWIRE, PREMCO, PREMEXPLN, PREMIERENE, PREMIERPOL
+  145/209: PRESTIGE, PRICOLLTD, PRIMESECU, PRIMO, PRINCEPIPE, PRIVISCL, PROSTARM, PROTEAN, PROZONER, PRSMJOHNSN
+  146/209: PRUDENT, PSB, PSPPROJECT, PTC, PTCIL, PTL, PUNJABCHEM, PURVA, PVP, PVRINOX
+  147/209: PVSL, PWL, PYRAMID, QMSMEDI, QUADFUTURE, QUESS, QUINT, RACE, RACLGEAR, RADAAN
+  148/209: RADHIKAJWE, RADIANTCMS, RADICO, RADIOCITY, RAILTEL, RAIN, RAINBOW, RAJMET, RAJPALAYAM, RAJRATAN
+  149/209: RAJSREESUG, RAJTV, RALLIS, RAMANEWS, RAMAPHO, RAMBHAJO, RAMCOCEM, RAMCOIND, RAMCOSYS, RAMKY
+  150/209: RAMRAT, RANASUG, RANEHOLDIN, RATEGAIN, RATNAMANI, RATNAVEER, RAYMOND, RAYMONDLSL, RAYMONDREL, RBA
+  151/209: RBLBANK, RBZJEWEL, RCF, RECLTD, REDINGTON, REDTAPE, REFEX, REGENCERAM, RELAXO, RELCHEMQ
+  152/209: RELIABLE, RELIANCE, RELIGARE, RELTD, REMSONSIND, RENUKA, REPCOHOME, REPRO, RESPONIND, RETAIL
+  153/209: RGL, RHETAN, RHIM, RHL, RICOAUTO, RIIL, RIR, RISHABH, RITCO, RITES
+  154/209: RKDL, RKEC, RKFORGE, RKSWAMY, RMC, RML, RNBDENIMS, ROHLTD, ROLEXRINGS, ROML
+  155/209: ROSSARI, ROSSELLIND, ROSSTECH, ROTO, ROUTE, RPEL, RPGLIFE, RPOWER, RPPINFRA, RPPL
+  156/209: RPSGVENT, RPTECH, RRIL, RRKABEL, RSDFIN, RSL, RSYSTEMS, RTNINDIA, RTNPOWER, RUBFILA
+  157/209: RUBICON, RUCHINFRA, RUCHIRA, RUDRA, RUPA, RUSHIL, RUSTOMJEE, RVHL, RVNL, RVTH
+  158/209: S&SPOWER, SAATVIKGL, SADBHAV, SAFARI, SAGARDEEP, SAGCEM, SAGILITY, SAHLIBHFI, SAHYADRI, SAIL
+  159/209: SAILIFE, SAIPARENT, SAKAR, SAKHTISUG, SAKSOFT, SAKUMA, SALASAR, SALONA, SALSTEEL, SALZERELEC
+  160/209: SAMBHAAV, SAMBHV, SAMHI, SAMMAANCAP, SAMPANN, SANATHAN, SANDESH, SANDHAR, SANDUMA, SANGAMIND
+  161/209: SANGHVIMOV, SANOFI, SANOFICONR, SANSERA, SANSTAR, SAPPHIRE, SAPPL, SARDAEN, SAREGAMA, SARLAPOLY
+  162/209: SARVESHWAR, SASKEN, SATIA, SATIN, SAURASHCEM, SAYAJIHOTL, SBC, SBCL, SBFC, SBGLP
+  163/209: SBICARD, SBIFUNDS, SBILIFE, SBIN, SCHAEFFLER, SCHAND, SCHNEIDER, SCI, SCILAL, SCODATUBES
+  164/209: SCPL, SDBL, SEAMECLTD, SECMARK, SECURKLOUD, SEDEMAC, SEIL, SELMC, SENCO, SENORES
+  165/209: SEPC, SERVOTECH, SESHAPAPER, SETL, SFL, SGFIN, SGIL, SGL, SGMART, SHADOWFAX
+  166/209: SHAH, SHAHALLOYS, SHAILY, SHAKTIPUMP, SHALBY, SHALPAINTS, SHANKARA, SHANTI, SHANTIGEAR, SHANTIGOLD
+  167/209: SHARDACROP, SHARDAMOTR, SHAREINDIA, SHBAJRG, SHEKHAWATI, SHILCTECH, SHILPAMED, SHINDL, SHIVATEX, SHIVAUM
+  168/209: SHK, SHOPERSTOP, SHRADHA, SHREDIGCEM, SHREECEM, SHREEJISPG, SHREEPUSHK, SHREERAMA, SHREYANIND, SHRIKRISH
+  169/209: SHRINGARMS, SHRIPISTON, SHRIRAMFIN, SHRIRAMPPS, SHYAMMETL, SICAGEN, SIEMENS, SIGIND, SIGMA, SIGNATURE
+  170/209: SIGNPOST, SIKA, SIKKO, SIL, SILGO, SILINV, SILLYMONKS, SILVERTUC, SIMPLEXINF, SINCLAIR
+  171/209: SINDHUTRAD, SINGERIND, SINTERCOM, SIRCA, SIS, SIYSIL, SJS, SJVN, SKFINDIA, SKFINDUS
+  172/209: SKIPPER, SKMEGGPROD, SKYGOLD, SMARTWORKS, SMCGLOBAL, SMLMAH, SMLT, SMSPHARMA, SNOWMAN, SOBHA
+  173/209: SOLARA, SOLARINDS, SOLARWORLD, SOLEX, SOMANYCERA, SOMATEX, SOMICONVEY, SONACOMS, SONAL, SONAMLTD
+  174/209: SONATSOFTW, SOTL, SOUTHBANK, SOUTHWEST, SPAL, SPANDANA, SPARC, SPCENET, SPECIALITY, SPECTRUM
+  175/209: SPENCERS, SPIC, SPLIL, SPLPETRO, SPMLINFRA, SPORTKING, SRD, SREEL, SRF, SRGHFL
+  176/209: SRHHYPOLTD, SRM, SRTL, SSDL, SSWL, STALLION, STANLEY, STAR, STARCEMENT, STARHEALTH
+  177/209: STARPAPER, STARTECK, STCINDIA, STEELCAS, STEELCITY, STEELXIND, STEL, STOVEKRAFT, STUDDS, STYL
+  178/209: STYLAMIND, STYRENIX, SUBROS, SUDARCOLOR, SUDARSCHEM, SUDEEPPHRM, SUKHJITS, SULA, SUMEETINDS, SUMICHEM
+  179/209: SUMIT, SUMMITSEC, SUNCLAY, SUNDARAM, SUNDARMFIN, SUNDRMFAST, SUNDROP, SUNFLAG, SUNPHARMA, SUNTECK
+  180/209: SUNTV, SUPERHOUSE, SUPRAJIT, SUPREME, SUPREMEIND, SUPREMEINF, SUPRIYA, SURAJEST, SURAJLTD, SURAKSHA
+  181/209: SURANASOL, SURANAT&P, SURYALA, SURYALAXMI, SURYAROSNI, SURYODAY, SUVEN, SUVIDHAA, SUYOG, SUZLON
+  182/209: SWANCORP, SWARAJENG, SWELECTES, SWIGGY, SWSOLAR, SYMPHONY, SYNCOMF, SYNGENE, SYRMA, TAALTECH
+  183/209: TAINWALCHM, TAJGVK, TAKE, TALBROAUTO, TANLA, TARACHAND, TARAPUR, TARC, TARIL, TARMAT
+  184/209: TARSONS, TASTYBITE, TATACAP, TATACHEM, TATACOMM, TATACONSUM, TATAELXSI, TATAINVEST, TATAPOWER, TATASTEEL
+  185/209: TATATECH, TATVA, TBOTEK, TBZ, TCC, TCI, TCIEXP, TCPLPACK, TCS, TDPOWERSYS
+  186/209: TEAMGTY, TEAMLEASE, TECHM, TECHNOE, TECHNVISN, TECILCHEM, TEGA, TEJASNET, TEMBO, TENNIND
+  187/209: TERASOFT, TEXINFRA, TEXMOPIPES, TEXRAIL, TFCILTD, TFL, TGBHOTELS, THAKDEV, THANGAMAYL, THEINVEST
+  188/209: THEJO, THELEELA, THEMISMED, THERMAX, THOMASCOOK, THOMASCOTT, THYROCARE, TI, TIIL, TIINDIA
+  189/209: TIJARIA, TIL, TIMETECHNO, TIMEX, TIMKEN, TINNARUBR, TIPSFILMS, TIPSMUSIC, TIRUMALCHM, TITAGARH
+  190/209: TITAN, TMB, TMCV, TMLCV, TMPV, TNPETRO, TNPL, TNTELE, TOLINS, TORNTPHARM
+  191/209: TORNTPOWER, TOTAL, TOUCHWOOD, TPHQ, TPLPLASTEH, TRACXN, TRANSPEK, TRANSRAILL, TRAVELFOOD, TREEHOUSE
+  192/209: TREJHARA, TREL, TRENT, TRF, TRIDENT, TRIGYN, TRITURBINE, TRIVENI, TRU, TRUALT
+  193/209: TSFINV, TTKHLTCARE, TTKPRESTIG, TTL, TTML, TURTLEMINT, TVSELECT, TVSHLTD, TVSMOTOR, TVSSCS
+  194/209: TVSSRICHAK, TVTODAY, UBL, UCAL, UCOBANK, UDS, UEL, UFBL, UFLEX, UFO
+  195/209: UGARSUGAR, UGROCAP, UJJIVANSFB, ULTRACEMCO, ULTRAMAR, UMESLTD, UMIYA-MRO, UNICHEMLAB, UNIECOM, UNIENTER
+  196/209: UNIMECH, UNIONBANK, UNIPARTS, UNITDSPR, UNITECH, UNITEDTEA, UNIVCABLES, UNOMINDA, UPL, URBANCO
+  197/209: URJA, USHAMART, USK, UTIAMC, UTKARSHBNK, UTLSOLAR, UTTAMSUGAR, UYFINCORP, V2RETAIL, VADILALIND
+  198/209: VAIBHAVGBL, VAISHALI, VAKRANGEE, VAML, VARDMNPOLY, VARROC, VASWANI, VBL, VCL, VEDL
+  199/209: VEDPOWER, VEEDOL, VENKEYS, VENTIVE, VENUSPIPES, VERANDA, VESUVIUS, VGL, VGUARD, VHL
+  200/209: VIDHIING, VIDYAWIRES, VIJAYA, VIKASECO, VIKASLIFE, VIKRAMSOLR, VIKRAN, VIMTALABS, VINATIORGA, VINCOFE
+  201/209: VINDHYATEL, VINNY, VINYLINDIA, VIPIND, VIRINCHI, VISAKAIND, VISHNU, VISHWARAJ, VISL, VIVIDHA
+  202/209: VIYASH, VLSFINANCE, VMART, VMM, VOEPL, VOGL, VOLTAMP, VOLTAS, VRAJ, VRLLOG
+  203/209: VSSL, VSTIND, VSTL, VSTTILLERS, VTL, WAAREEENER, WAAREEINDO, WAAREERTL, WABAG, WAKEFIT
+  204/209: WALCHANNAG, WANBURY, WCIL, WEALTH, WEBELSOLAR, WEIZMANIND, WEL, WELCORP, WELENT, WELSPLSOL
+  205/209: WELSPUNLIV, WENDT, WESTLIFE, WEWORK, WHEELS, WHIRLPOOL, WILLAMAGOR, WINDLAS, WINDMACHIN, WIPL
+  206/209: WIPRO, WOCKPHARMA, WONDERLA, WORTHPERI, WPIL, WSI, WSTCSTPAPR, XCHANGING, XELPMOC, XPROINDIA
+  207/209: XTGLOBAL, YASHO, YATHARTH, YATRA, YESBANK, YUKEN, ZAGGLE, ZEEL, ZEEMEDIA, ZENITHEXPO
+  208/209: ZENITHSTL, ZENSARTECH, ZENTEC, ZFCVINDIA, ZFSTEERING, ZODIAC, ZODIACLOTH, ZOTA, ZSARACOM, ZUARI
+  209/209: ZUARIIND, ZYDUSLIFE, ZYDUSWELL
+
+==============================================
+  Stocks OK        : 2082
+  Stocks failed    : 1
+  Rows written     : 20,284
+  Total in database: 1,369,702
+  Date range       : 2021-08-06 to 2026-08-07
+  Failed: TMLCV
+==============================================
+Fetching news for 150 companies (~3 minutes).
+These are the highest-scoring stocks — the only ones that could
+appear in a shortlist. Ctrl+C is safe.
+
+    10/150   67 new headlines
+    20/150   121 new headlines
+    30/150   177 new headlines
+    40/150   249 new headlines
+    50/150   322 new headlines
+    60/150   398 new headlines
+    70/150   469 new headlines
+    80/150   538 new headlines
+    90/150   613 new headlines
+   100/150   693 new headlines
+   110/150   766 new headlines
+   120/150   837 new headlines
+   130/150   901 new headlines
+   140/150   992 new headlines
+   150/150   1058 new headlines
+
+================================================
+  New headlines   : 1058
+  Already had     : 739
+  Failed          : 0
+  Purged (>45d)  : 1005
+  Total stored    : 1637
+================================================
+
+Next: python rank.py  (so catalyst scores pick these up)
+RUN FINISHED: 07-08-2026  9:37:18.63 
+ 
+============================================ 
+RUN STARTED: 07-08-2026 12:10:06.62 
+============================================ 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TMLCV.NS"}}}
+$TMLCV.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TMLCV.NS']: possibly delisted; no timezone found
+Loaded 45 instruments.
+
+  1/209: 20MICRONS, 21STCENMGM, 360ONE, 3BBLACKBIO, 3IINFOLTD, 3MINDIA, 3PLAND, 5PAISA, 63MOONS, A2ZINFRA
+  2/209: AAATECH, AADHARHFC, AAKASH, AARNAV, AARON, AARTIDRUGS, AARTIIND, AARTIPHARM, AARTISURF, AARVI
+  3/209: AASTHA, AAVAS, ABB, ABBOTINDIA, ABCAPITAL, ABCOTS, ABDL, ABFRL, ABINFRA, ABLBL
+  4/209: ABMINTLLTD, ABMKNO, ABREL, ABSLAMC, ACC, ACCELYA, ACE, ACEINTEG, ACI, ACL
+  5/209: ACMESOLAR, ACSTECH, ACUTAAS, ADANIENSOL, ADANIENT, ADANIGREEN, ADANIPORTS, ADANIPOWER, ADFFOODS, ADL
+  6/209: ADOR, ADROITINFO, ADSL, ADVAIT, ADVANCE, ADVANIHOTR, ADVENTHTL, ADVENZYMES, AEGISLOG, AEGISVOPAK
+  7/209: AEPL, AEQUS, AEROENTER, AEROFLEX, AERONEU, AEROPLANE, AETHER, AFCONS, AFFLE, AFIL
+  8/209: AFSL, AGARIND, AGARWALEYE, AGI, AGIIL, AGL, AGROPHOS, AHCL, AHLADA, AHLEAST
+  9/209: AHLUCONT, AIAENG, AIIL, AIRAN, AIROLAM, AJANTPHARM, AJAXENGG, AJMERA, AJOONI, AKASH
+  10/209: AKCAPIT, AKG, AKI, AKSHAR, AKUMS, ALANKIT, ALBERTDAVD, ALEMBICLTD, ALGOQUANT, ALICON
+  11/209: ALIVUS, ALKEM, ALKYLAMINE, ALLCARGO, ALLDIGI, ALLTIME, ALMONDZ, ALOKINDS, ALPA, ALPHAGEO
+  12/209: ALPINETEX, AMAGI, AMBALALSA, AMBER, AMBICAAGAR, AMBIKCO, AMBUJACEM, AMDIND, AMJLAND, AMNPLST
+  13/209: AMRUTANJAN, ANANDRATHI, ANANTRAJ, ANDHRAPAP, ANDHRSUGAR, ANGELONE, ANIKINDS, ANMOL, ANTELOPUS, ANTGRAPHIC
+  14/209: ANTHEM, ANUHPHR, ANUP, ANURAS, APARINDS, APCL, APCOTEXIND, APEX, APLAPOLLO, APLLTD
+  15/209: APOLLO, APOLLOHOSP, APOLLOPIPE, APOLLOTYRE, APOLSINHOT, APTUS, AQYLON, ARCHIDPLY, ARCHIES, ARE&M
+  16/209: ARENTERP, ARFIN, ARIES, ARIHANT, ARIHANTCAP, ARIHANTSUP, ARIS, ARKADE, ARMANFIN, AROGRANITE
+  17/209: ARSSBL, ARTEMISMED, ARTNIRMAN, ARVEE, ARVIND, ARVINDFASN, ARVSMART, ASAHIINDIA, ASAL, ASALCBR
+  18/209: ASHAPURMIN, ASHIANA, ASHIKAG, ASHIMASYN, ASHOKA, ASHOKAMET, ASHOKLEY, ASIANENE, ASIANHOTNR, ASIANPAINT
+  19/209: ASIANTILES, ASKAUTOLTD, ASPINWALL, ASTAR, ASTEC, ASTERDM, ASTRAL, ASTRAMICRO, ASTRAZEN, ATALREAL
+  20/209: ATAM, ATGL, ATHERENERG, ATL, ATLANTAA, ATLANTAELE, ATLASCYCLE, ATUL, ATULAUTO, AUBANK
+  21/209: AURIONPRO, AUROPHARMA, AURUM, AURUS, AUTOAXLES, AVADHSUGAR, AVALON, AVANTEL, AVANTIFEED, AVL
+  22/209: AVONMORE, AVROIND, AVTNPL, AWFIS, AWHCL, AWL, AXISBANK, AXISCADES, AXITA, AYE
+  23/209: AYMSYNTEX, AZAD, BAGFILMS, BAIDFIN, BAJAJ-AUTO, BAJAJCON, BAJAJELEC, BAJAJFINSV, BAJAJHCARE, BAJAJHFL
+  24/209: BAJAJHIND, BAJAJHLDNG, BAJAJINDEF, BAJAJST, BAJEL, BAJFINANCE, BALAJEE, BALAJITELE, BALAMINES, BALAXI
+  25/209: BALKRISHNA, BALKRISIND, BALMLAWRIE, BALPHARMA, BALRAMCHIN, BALUFORGE, BANARBEADS, BANARISUG, BANCOINDIA, BANDHANBNK
+  26/209: BANG, BANKBARODA, BANKINDIA, BANSALWIRE, BANSWRAS, BASF, BATAINDIA, BATLIBOI, BAYERCROP, BBL
+  27/209: BBOX, BBTC, BBTCL, BCG, BCLIND, BCONCEPTS, BCPL, BDL, BEARDSELL, BECTORFOOD
+  28/209: BEDMUTHA, BEEKAY, BEL, BELLACASA, BELRISE, BEML, BENGALASM, BEPL, BERGEPAINT, BESTAGRO
+  29/209: BETA, BFINVEST, BFUTILITIE, BHAGCHEM, BHARATCOAL, BHARATFORG, BHARATRAS, BHARATSE, BHARATWIRE, BHARTIARTL
+  30/209: BHARTIHEXA, BHEL, BI, BIGBLOC, BIKAJI, BIL, BIMETAL, BIOCON, BIOFILCHEM, BIRLACORPN
+  31/209: BIRLAMONEY, BIRLANU, BIRLAPREC, BLACKBUCK, BLAL, BLBLIMITED, BLIL, BLKASHYAP, BLS, BLSE
+  32/209: BLUEDART, BLUEJET, BLUESTARCO, BLUESTONE, BLUSPRING, BMWVENTLTD, BOHRAIND, BOMDYEING, BONLON, BORANA
+  33/209: BOROLTD, BORORENEW, BOROSCI, BOSCH-HCIL, BOSCHLTD, BPCL, BPL, BRIGADE, BRIGHOTEL, BRITANNIA
+  34/209: BRNL, BSE, BSL, BSOFT, BTML, BUILDPRO, BUTTERFLY, BVCL, CAMLINFINE, CAMPUS
+  35/209: CAMS, CANBK, CANFINHOME, CANHLIFE, CANTABIL, CAPACITE, CAPILLARY, CAPITALSFB, CAPLIPOINT, CAPTRUST
+  36/209: CARBORUNIV, CARERATING, CARRARO, CARTRADE, CARYSIL, CASTROLIND, CCAVENUE, CCCL, CCHHL, CCL
+  37/209: CDSL, CEATLTD, CEIGALL, CEINSYS, CELEBRITY, CELLO, CEMPRO, CENTENKA, CENTEXT, CENTRALBK
+  38/209: CENTRUM, CENTUM, CENTURYPLY, CERA, CESC, CEWATER, CGCL, CGPOWER, CHALET, CHAMBLFERT
+  39/209: CHEMPLASTS, CHENNPETRO, CHEVIOT, CHOICEIN, CHOLAFIN, CHOLAHLDNG, CIEINDIA, CIFL, CINELINE, CINEVISTA
+  40/209: CIPLA, CLEAN, CLEANMAX, CLSEL, CMLL, CMPDI, CMRGREEN, CMSINFO, CNL, COALINDIA
+  41/209: COASTCORP, COCHINSHIP, COCKERILL, COFORGE, COHANCE, COLPAL, COMFINTE, COMPUSOFT, COMSYN, CONCOR
+  42/209: CONCORDBIO, CONFIPET, CONTROLPR, CORALFINAC, CORDELIA, COROMANDEL, CORONA, COSMOFIRST, COUNCODOS, CPEDU
+  43/209: CPL, CPPLUS, CRAFTSMAN, CRAMC, CREATIVEYE, CREDITACC, CREST, CRISIL, CRIZAC, CROMPTON
+  44/209: CROWN, CSBBANK, CSLFINANCE, CSM, CTE, CUB, CUBEXTUB, CUMMINSIND, CUPID, CURAA
+  45/209: CYIENT, CYIENTDLM, DABUR, DALBHARAT, DALMIASUG, DAMCAPITAL, DANGEE, DATAMATICS, DATAPATTNS, DAVANGERE
+  46/209: DBCORP, DBL, DBOL, DCAL, DCBBANK, DCI, DCMFINSERV, DCMSHRIRAM, DCMSRIND, DCW
+  47/209: DCXINDIA, DDEVPLSTIK, DECCANCE, DECNGOLD, DEEPAKFERT, DEEPAKNTR, DEEPINDS, DELHIVERY, DELTACORP, DELTAMAGNT
+  48/209: DEN, DENORA, DENTA, DEVIT, DEVX, DEVYANI, DGCONTENT, DHAMPURSUG, DHANBANK, DHANUKA
+  49/209: DHARMAJ, DHUNINV, DIAMINESQ, DIAMONDYD, DICIND, DIFFNKG, DIGIDRIVE, DIGITIDE, DIGJAMLMTD, DISAQ
+  50/209: DIVGIITTS, DIVISLAB, DIXON, DJML, DLF, DLINKINDIA, DMART, DMCC, DNAMEDIA, DODLA
+  51/209: DOLATALGO, DOLLAR, DOLPHIN, DOMS, DONEAR, DPABHUSHAN, DRAGARWQ, DRCSYSTEMS, DREAMFOLKS, DREDGECORP
+  52/209: DRREDDY, DSSL, DTIL, DUCON, DVL, DWARKESH, DYCL, DYNAMATECH, DYNPRO, E2E
+  53/209: EASEMYTRIP, EBGNG, ECLERX, EDELWEISS, EFCIL, EICHERMOT, EIDPARRY, EIEL, EIHAHOTELS, EIHOTEL
+  54/209: EIMCOELECO, EKC, ELANTAS, ELCIDIN, ELDEHSG, ELECON, ELECTCAST, ELECTHERM, ELGIEQUIP, ELGIRUBCO
+  55/209: ELIN, ELITECON, ELLEN, ELPROINTL, EMAMILTD, EMBDL, EMCURE, EMIL, EMKAY, EMMVEE
+  56/209: EMSLIMITED, EMUDHRA, ENDURANCE, ENERGYDEV, ENGINERSIN, ENIL, ENRIN, ENTERO, EPACK, EPACKPEB
+  57/209: EPIGRAL, EPL, EQUITASBNK, ERIS, ESABINDIA, ESAFSFB, ESCORTS, ESSARSHPNG, ESTER, ETERNAL
+  58/209: ETHOSLTD, EUREKAFORB, EUROBOND, EUROPRATIK, EVEREADY, EXCELINDUS, EXCELSOFT, EXICOM, EXIDEIND, EXPLEOSOL
+  59/209: EXXARO, FABTECH, FACT, FAZE3Q, FCL, FCSSOFT, FDC, FEDDERSHOL, FEDERALBNK, FEDFINA
+  60/209: FERMENTA, FIBERWEB, FIEMIND, FILATEX, FINCABLES, FINEORG, FINKURVE, FINOPB, FINPIPE, FIRSTCRY
+  61/209: FISCHER, FIVESTAR, FLAIR, FLUOROCHEM, FMGOETZE, FOODSIN, FORCEMOT, FORTIS, FOSECOIND, FRACTAL
+  62/209: FRONTSP, FSL, FUSION, GABRIEL, GAEL, GAIL, GALAPREC, GALAXYSURF, GALLANTT, GANDHAR
+  63/209: GANDHITUBE, GANECOS, GANESHCP, GANESHHOU, GANGESSECU, GARFIBRES, GARUDA, GATECH, GATEWAY, GAYAHWS
+  64/209: GCSL, GEEKAYWIRE, GEMAROMA, GENCON, GENESYS, GENUSPAPER, GENUSPOWER, GEOJITFSL, GESHIP, GFLLIMITED
+  65/209: GHCL, GHCLTEXTIL, GICHSGFIN, GICL, GICRE, GILLANDERS, GILLETTE, GIPCL, GKENERGY, GKSL
+  66/209: GKWLIMITED, GLAND, GLAXO, GLENMARK, GLOBAL, GLOBALVECT, GLOBE, GLOBECIVIL, GLOBUSSPR, GLOSTERLTD
+  67/209: GMBREW, GMDCLTD, GMMPFAUDLR, GMRAIRPORT, GMRP&UI, GNA, GNFC, GNRL, GOACARBON, GOCLCORP
+  68/209: GOCOLORS, GODAVARIB, GODFRYPHLP, GODIGIT, GODREJAGRO, GODREJCP, GODREJIND, GODREJPROP, GOKEX, GOKUL
+  69/209: GOKULAGRO, GOLDIAM, GOODLUCK, GOODYEAR, GOPAL, GOYALALUM, GPIL, GPPL, GPTHEALTH, GPTINFRA
+  70/209: GRANDOAK, GRANULES, GRAPHITE, GRASIM, GRAUWEIL, GRAVISSHO, GRAVITA, GREAVESCOT, GREENLAM, GREENPANEL
+  71/209: GREENPLY, GREENPOWER, GRINDWELL, GRINFRA, GRMOVER, GROBTEA, GROWW, GRPLTD, GRSE, GRWRHITECH
+  72/209: GSFC, GSLSU, GSPCROP, GSS, GTL, GTLINFRA, GTPL, GUFICBIO, GUJALKALI, GUJAPOLLO
+  73/209: GUJENERGY, GUJRAFFIA, GUJTHEM, GULFOILLUB, GULPOLY, GVPIL, GVPTECH, GVT&D, GYFTR, HAL
+  74/209: HALDER, HALEOSLABS, HAPPSTMNDS, HAPPYFORGE, HARDWYN, HARIOMPIPE, HARRMALAYA, HARSHA, HATHWAY, HATSUN
+  75/209: HAVELLS, HAVISHA, HAWKINCOOK, HBESD, HBLENGINE, HBSL, HCC, HCG, HCL-INSYS, HCLTECH
+  76/209: HDBFS, HDFCAMC, HDFCBANK, HDFCLIFE, HEADSUP, HEALTHX, HECPROJECT, HEG, HEIDELBERG, HEMIPROP
+  77/209: HERANBA, HERITGFOOD, HEROMOTOCO, HESTERBIO, HEXATRADEX, HEXT, HFCL, HGINFRA, HGM, HGS
+  78/209: HIKAL, HILINFRA, HIMATSEIDE, HINDALCO, HINDCOMPOS, HINDCON, HINDCOPPER, HINDOILEXP, HINDPETRO, HINDUNILVR
+  79/209: HINDWAREAP, HINDZINC, HIRECT, HISARMETAL, HITECH, HLEGLAS, HLVLTD, HMAAGRO, HMVL, HNDFDS
+  80/209: HOMEFIRST, HONASA, HONAUT, HONDAPOWER, HPAL, HPIL, HPL, HSCL, HTMEDIA, HUBTOWN
+  81/209: HUDCO, HUHTAMAKI, HYUNDAI, ICDSLTD, ICEMAKE, ICICIAMC, ICICIBANK, ICICIGI, ICICIPRULI, ICIL
+  82/209: ICRA, IDBI, IDEA, IDFCFIRSTB, IEX, IFBIND, IFCI, IFGLEXPOR, IGARASHI, IGCL
+  83/209: IGIL, IGL, IGPL, IIFL, IIFLCAPS, IITL, IKIO, IKS, IMAGICAA, IMFA
+  84/209: IMPAL, INA, INCREDIBLE, INDBANK, INDGN, INDHOTEL, INDIACEM, INDIAGLYCO, INDIAMART, INDIANB
+  85/209: INDIANCARD, INDIANHUME, INDIASHLTR, INDIGO, INDIGOPNTS, INDIQUBE, INDNIPPON, INDOBORAX, INDOCO, INDOFARM
+  86/209: INDOMIM, INDORAMA, INDOSTAR, INDOTHAI, INDOUS, INDPRUD, INDRAMEDCO, INDSWFTLAB, INDTERRAIN, INDUSINDBK
+  87/209: INDUSTOWER, INFOBEAN, INFOMEDIA, INFY, INGERRAND, INNOVACAP, INNOVANA, INNOVISION, INOXINDIA, INOXWIND
+  88/209: INSECTICID, INTELLECT, INTENTECH, INTERARCH, INTLCONV, INVENTURE, IOB, IOC, IOLCP, IONEXCHANG
+  89/209: IPCALAB, IPL, IRB, IRCON, IRCTC, IREDA, IRFC, IRIS, IRISDOREME, IRMENERGY
+  90/209: ISFT, ISGEC, ISHANCH, ITC, ITCHOTELS, ITDC, ITI, IVALUE, IVC, IWP
+  91/209: IXIGO, IZMO, J&KBANK, JAGRAN, JAGSNPHARM, JAICORPLTD, JAINREC, JAIPURKURT, JAMNAAUTO, JARO
+  92/209: JASH, JAYAGROGN, JAYBARMARU, JAYKAY, JAYNECOIND, JAYSREETEA, JBCHEPHARM, JBMA, JETFREIGHT, JGCHEM
+  93/209: JHS, JINDALPHOT, JINDALPOLY, JINDALSAW, JINDALSTEL, JINDRILL, JINDWORLD, JIOFIN, JISLDVREQS, JISLJALEQS
+  94/209: JITFINFRA, JKCEMENT, JKIL, JKLAKSHMI, JKPAPER, JKTYRE, JLHL, JMA, JMFINANCIL, JNKINDIA
+  95/209: JNPR, JPOLYINVST, JPPOWER, JSFB, JSL, JSLL, JSWCEMENT, JSWDULUX, JSWENERGY, JSWHL
+  96/209: JSWINFRA, JSWSTEEL, JTEKTINDIA, JTLIND, JUBLCPL, JUBLFOOD, JUBLINGREA, JUBLPHARMA, JUNIPER, JUSTDIAL
+  97/209: JWL, JYOTHYLAB, JYOTICNC, JYOTISTRUC, KABRAEXTRU, KAJARIACER, KALAMANDIR, KALPATARU, KALYANIFRG, KALYANKJIL
+  98/209: KAMAHOLD, KAMATHOTEL, KAMOPAINTS, KANANIIND, KANPRPLA, KANSAINER, KAPSTON, KARMAENG, KARURVYSYA, KAVDEFENCE
+  99/209: KAYA, KAYNES, KCP, KCPSUGIND, KDDL, KEC, KECL, KEEPLEARN, KEI, KELLTONTEC
+  100/209: KENNAMET, KERNEX, KEYFINSERV, KFINTECH, KHAICHEM, KHAITANLTD, KHANDSE, KICL, KIMS, KINGFA
+  101/209: KIOCL, KIRANVYPAR, KIRIINDUS, KIRLFER, KIRLOSBROS, KIRLOSENG, KIRLOSIND, KIRLPNU, KISSHT, KITEX
+  102/209: KKCL, KLBRENG-B, KMEW, KMSUGAR, KNACK, KNAGRI, KNRCON, KOHINOOR, KOKUYOCMLN, KOLTEPATIL
+  103/209: KOTAKBANK, KOTARISUG, KOTHARIPET, KOTHARIPRO, KOTIC, KOVAI, KPEL, KPIGREEN, KPIL, KPITTECH
+  104/209: KPL, KPRMILL, KRBL, KREBSBIO, KRISHANA, KRISHIVAL, KRISHNADEF, KRITIKA, KRITINUT, KRONOX
+  105/209: KROSS, KRSNAA, KRYSTAL, KSB, KSCL, KSHINTL, KSL, KSOLVES, KSR, KTKBANK
+  106/209: KUANTUM, KUSUMGAR, KWIL, LAGNAM, LAHOTIOV, LAL, LALPATHLAB, LAMBODHARA, LANCORHOL, LANDMARK
+  107/209: LANDSMILL, LAOPALA, LASA, LASERPOWER, LATENTVIEW, LAURUSLABS, LAXMICOT, LAXMIDENTL, LCCINFOTEC, LCL
+  108/209: LEMERITE, LEMONTREE, LENSKART, LEXUS, LFIC, LGBBROSLTD, LGEINDIA, LGHL, LIBAS, LIBERTSHOE
+  109/209: LICHSGFIN, LICI, LIKHITHA, LINC, LINCOLN, LINDEINDIA, LLOYDSENGG, LLOYDSENT, LLOYDSME, LMW
+  110/209: LODHA, LORDSCHLO, LOTUSDEV, LOTUSEYE, LOVABLE, LOYALTEX, LPDC, LT, LTF, LTFOODS
+  111/209: LTM, LTTS, LUMAXIND, LUMAXTECH, LUPIN, LUXIND, LXCHEM, M&M, M&MFIN, MAANALU
+  112/209: MACPOWER, MADHAV, MADHAVIPL, MADRASFERT, MAFATIND, MAGADSUGAR, MAGNUM, MAHABANK, MAHAPEXLTD, MAHASTEEL
+  113/209: MAHEPC, MAHLIFE, MAHLOG, MAHSCOOTER, MAHSEAMLES, MAITHANALL, MAJESAUT, MALLCOM, MALUPAPER, MAMATA
+  114/209: MANAKALUCO, MANAKCOAT, MANAKSIA, MANAKSTEEL, MANALIPETC, MANAPPURAM, MANBA, MANCREDIT, MANGALAM, MANGLMCEM
+  115/209: MANINDS, MANINFRA, MANIPALHOS, MANKIND, MANOMAY, MANORAMA, MANYAVAR, MAPMYINDIA, MARATHON, MARICO
+  116/209: MARINE, MARKOLINES, MARKSANS, MARSONS, MARUTI, MASFIN, MASTEK, MASTERTR, MATRIMONY, MAXESTATES
+  117/209: MAXHEALTH, MAXIND, MAYURUNIQ, MAZDOCK, MBAPL, MBEL, MCCHRLS-B, MCL, MCLOUD, MCX
+  118/209: MEDANTA, MEDIASSIST, MEDICAMEQ, MEDICO, MEDPLUS, MEESHO, MEGASTAR, MEIL, MENNPIS, MERCANTILE
+  119/209: MERCURYEV, METROBRAND, METROGLOBL, METROPOLIS, MFML, MFSL, MGL, MHLXMIRU, MHRIL, MIDHANI
+  120/209: MIDWESTLTD, MINDACORP, MINDTECK, MIRZAINT, MITTAL, MKPL, MMFL, MMP, MMTC, MOBIKWIK
+  121/209: MODIRUBBER, MODIS, MODTHREAD, MOHITIND, MOIL, MOKSH, MOL, MOLDTECH, MOLDTKPAC, MONARCH
+  122/209: MONEYBOXX, MONTECARLO, MOREPENLAB, MOSCHIP, MOTHERSON, MOTILALOFS, MOTISONS, MPHASIS, MPSLTD, MRF
+  123/209: MRPL, MSPL, MSTCLTD, MSUMI, MTNL, MUFIN, MUFTI, MUKANDLTD, MUKKA, MUNJALAU
+  124/209: MUNJALSHOW, MURUDCERA, MUTHOOTCAP, MUTHOOTFIN, MUTHOOTMF, MVELECTRO, MVGJL, MWL, NACLIND, NAGREEKCAP
+  125/209: NAGREEKEXP, NAHARCAP, NAHARINDUS, NAHARPOLY, NAHARSPING, NAM-INDIA, NARMADA, NATCAPSUQ, NATCOPHARM, NATHBIOGEN
+  126/209: NATIONALUM, NATIONSTD, NAUKRI, NAVA, NAVINFLUOR, NAVKARCORP, NAVNETEDUL, NAZARA, NBCC, NBIFIN
+  127/209: NCC, NCLIND, NDGL, NDL, NDLVENTURE, NDRAUTO, NDTV, NEAGI, NELCAST, NELCO
+  128/209: NEOGEN, NEPHROPLUS, NESCO, NESTLEIND, NETWEB, NETWORK18, NEULANDLAB, NEWGEN, NEXTMEDIA, NFL
+  129/209: NGLFINE, NH, NHPC, NIACL, NIBE, NIBL, NIITLTD, NIITMTS, NILAINFRA, NILASPACES
+  130/209: NILE, NILKAMAL, NIPPOBATRY, NIRAJISPAT, NIRLON, NITCO, NITINSPIN, NITIRAJ, NITTAGELA, NIVABUPA
+  131/209: NKIND, NLCINDIA, NMDC, NOCIL, NORBTEAEXP, NORTHARC, NOVARTIND, NPST, NRAIL, NRBBEARING
+  132/209: NSIL, NSLNISP, NTPC, NTPCGREEN, NUCLEUS, NURECA, NUVAMA, NUVOCO, NYKAA, OAL
+  133/209: OBCL, OBEROIRLTY, OFSS, OIL, OLAELEC, OLECTRA, OMAXE, OMINFRAL, OMNI, OMPOWER
+  134/209: ONEPOINT, ONESOURCE, ONGC, ONWARDTEC, OPTIEMUS, ORCHASP, ORCHPHARMA, ORICONENT, ORIENTALTL, ORIENTBELL
+  135/209: ORIENTCEM, ORIENTCER, ORIENTELEC, ORIENTHOT, ORIENTPPR, ORIENTTECH, ORISSAMINE, ORKLAINDIA, OSWALAGRO, OSWALGREEN
+  136/209: OSWALPUMPS, OSWALSEEDS, PACEDIGITK, PAGEIND, PAISALO, PAKKA, PALASHSECU, PANACEABIO, PANAMAPET, PANSARI
+  137/209: PAR, PARACABLES, PARADEEP, PARAGMILK, PARAS, PARASPETRO, PARKHOSPS, PARKHOTELS, PASHUPATI, PATANJALI
+  138/209: PATELENG, PATELRMART, PAUSHAKLTD, PAVNAIND, PAYTM, PCBL, PCJEWELLER, PDMJEPAPER, PDSL, PENIND
+  139/209: PERSISTENT, PETRONET, PFC, PFIZER, PFOCUS, PFS, PGEL, PGHH, PGHL, PGIL
+  140/209: PHOENIXLTD, PICCADIL, PIDILITIND, PIGL, PIIND, PILANIINVS, PINELABS, PIONEEREMB, PIRAMALFIN, PITTIENG
+  141/209: PIXTRANS, PKTEA, PLASTIBLEN, PLATIND, PML, PNB, PNBGILTS, PNBHOUSING, PNC, PNCINFRA
+  142/209: PNGJL, PNGSREVA, POCL, PODDARMENT, POKARNA, POLICYBZR, POLYCAB, POLYMED, POLYPLEX, PONNIERODE
+  143/209: POONAWALLA, POWERGRID, POWERICA, POWERINDIA, POWERMECH, PPLPHARMA, PRABHA, PRAENG, PRAJIND, PRAKASH
+  144/209: PRAKASHSTL, PRAVEG, PRAXIS, PRECAM, PRECOT, PRECWIRE, PREMCO, PREMEXPLN, PREMIERENE, PREMIERPOL
+  145/209: PRESTIGE, PRICOLLTD, PRIMESECU, PRIMO, PRINCEPIPE, PRIVISCL, PROSTARM, PROTEAN, PROZONER, PRSMJOHNSN
+  146/209: PRUDENT, PSB, PSPPROJECT, PTC, PTCIL, PTL, PUNJABCHEM, PURVA, PVP, PVRINOX
+  147/209: PVSL, PWL, PYRAMID, QMSMEDI, QUADFUTURE, QUESS, QUINT, RACE, RACLGEAR, RADAAN
+  148/209: RADHIKAJWE, RADIANTCMS, RADICO, RADIOCITY, RAILTEL, RAIN, RAINBOW, RAJMET, RAJPALAYAM, RAJRATAN
+  149/209: RAJSREESUG, RAJTV, RALLIS, RAMANEWS, RAMAPHO, RAMBHAJO, RAMCOCEM, RAMCOIND, RAMCOSYS, RAMKY
+  150/209: RAMRAT, RANASUG, RANEHOLDIN, RATEGAIN, RATNAMANI, RATNAVEER, RAYMOND, RAYMONDLSL, RAYMONDREL, RBA
+  151/209: RBLBANK, RBZJEWEL, RCF, RECLTD, REDINGTON, REDTAPE, REFEX, REGENCERAM, RELAXO, RELCHEMQ
+  152/209: RELIABLE, RELIANCE, RELIGARE, RELTD, REMSONSIND, RENUKA, REPCOHOME, REPRO, RESPONIND, RETAIL
+  153/209: RGL, RHETAN, RHIM, RHL, RICOAUTO, RIIL, RIR, RISHABH, RITCO, RITES
+  154/209: RKDL, RKEC, RKFORGE, RKSWAMY, RMC, RML, RNBDENIMS, ROHLTD, ROLEXRINGS, ROML
+  155/209: ROSSARI, ROSSELLIND, ROSSTECH, ROTO, ROUTE, RPEL, RPGLIFE, RPOWER, RPPINFRA, RPPL
+  156/209: RPSGVENT, RPTECH, RRIL, RRKABEL, RSDFIN, RSL, RSYSTEMS, RTNINDIA, RTNPOWER, RUBFILA
+  157/209: RUBICON, RUCHINFRA, RUCHIRA, RUDRA, RUPA, RUSHIL, RUSTOMJEE, RVHL, RVNL, RVTH
+  158/209: S&SPOWER, SAATVIKGL, SADBHAV, SAFARI, SAGARDEEP, SAGCEM, SAGILITY, SAHLIBHFI, SAHYADRI, SAIL
+  159/209: SAILIFE, SAIPARENT, SAKAR, SAKHTISUG, SAKSOFT, SAKUMA, SALASAR, SALONA, SALSTEEL, SALZERELEC
+  160/209: SAMBHAAV, SAMBHV, SAMHI, SAMMAANCAP, SAMPANN, SANATHAN, SANDESH, SANDHAR, SANDUMA, SANGAMIND
+  161/209: SANGHVIMOV, SANOFI, SANOFICONR, SANSERA, SANSTAR, SAPPHIRE, SAPPL, SARDAEN, SAREGAMA, SARLAPOLY
+  162/209: SARVESHWAR, SASKEN, SATIA, SATIN, SAURASHCEM, SAYAJIHOTL, SBC, SBCL, SBFC, SBGLP
+  163/209: SBICARD, SBIFUNDS, SBILIFE, SBIN, SCHAEFFLER, SCHAND, SCHNEIDER, SCI, SCILAL, SCODATUBES
+  164/209: SCPL, SDBL, SEAMECLTD, SECMARK, SECURKLOUD, SEDEMAC, SEIL, SELMC, SENCO, SENORES
+  165/209: SEPC, SERVOTECH, SESHAPAPER, SETL, SFL, SGFIN, SGIL, SGL, SGMART, SHADOWFAX
+  166/209: SHAH, SHAHALLOYS, SHAILY, SHAKTIPUMP, SHALBY, SHALPAINTS, SHANKARA, SHANTI, SHANTIGEAR, SHANTIGOLD
+  167/209: SHARDACROP, SHARDAMOTR, SHAREINDIA, SHBAJRG, SHEKHAWATI, SHILCTECH, SHILPAMED, SHINDL, SHIVATEX, SHIVAUM
+  168/209: SHK, SHOPERSTOP, SHRADHA, SHREDIGCEM, SHREECEM, SHREEJISPG, SHREEPUSHK, SHREERAMA, SHREYANIND, SHRIKRISH
+  169/209: SHRINGARMS, SHRIPISTON, SHRIRAMFIN, SHRIRAMPPS, SHYAMMETL, SICAGEN, SIEMENS, SIGIND, SIGMA, SIGNATURE
+  170/209: SIGNPOST, SIKA, SIKKO, SIL, SILGO, SILINV, SILLYMONKS, SILVERTUC, SIMPLEXINF, SINCLAIR
+  171/209: SINDHUTRAD, SINGERIND, SINTERCOM, SIRCA, SIS, SIYSIL, SJS, SJVN, SKFINDIA, SKFINDUS
+  172/209: SKIPPER, SKMEGGPROD, SKYGOLD, SMARTWORKS, SMCGLOBAL, SMLMAH, SMLT, SMSPHARMA, SNOWMAN, SOBHA
+  173/209: SOLARA, SOLARINDS, SOLARWORLD, SOLEX, SOMANYCERA, SOMATEX, SOMICONVEY, SONACOMS, SONAL, SONAMLTD
+  174/209: SONATSOFTW, SOTL, SOUTHBANK, SOUTHWEST, SPAL, SPANDANA, SPARC, SPCENET, SPECIALITY, SPECTRUM
+  175/209: SPENCERS, SPIC, SPLIL, SPLPETRO, SPMLINFRA, SPORTKING, SRD, SREEL, SRF, SRGHFL
+  176/209: SRHHYPOLTD, SRM, SRTL, SSDL, SSWL, STALLION, STANLEY, STAR, STARCEMENT, STARHEALTH
+  177/209: STARPAPER, STARTECK, STCINDIA, STEELCAS, STEELCITY, STEELXIND, STEL, STOVEKRAFT, STUDDS, STYL
+  178/209: STYLAMIND, STYRENIX, SUBROS, SUDARCOLOR, SUDARSCHEM, SUDEEPPHRM, SUKHJITS, SULA, SUMEETINDS, SUMICHEM
+  179/209: SUMIT, SUMMITSEC, SUNCLAY, SUNDARAM, SUNDARMFIN, SUNDRMFAST, SUNDROP, SUNFLAG, SUNPHARMA, SUNTECK
+  180/209: SUNTV, SUPERHOUSE, SUPRAJIT, SUPREME, SUPREMEIND, SUPREMEINF, SUPRIYA, SURAJEST, SURAJLTD, SURAKSHA
+  181/209: SURANASOL, SURANAT&P, SURYALA, SURYALAXMI, SURYAROSNI, SURYODAY, SUVEN, SUVIDHAA, SUYOG, SUZLON
+  182/209: SWANCORP, SWARAJENG, SWELECTES, SWIGGY, SWSOLAR, SYMPHONY, SYNCOMF, SYNGENE, SYRMA, TAALTECH
+  183/209: TAINWALCHM, TAJGVK, TAKE, TALBROAUTO, TANLA, TARACHAND, TARAPUR, TARC, TARIL, TARMAT
+  184/209: TARSONS, TASTYBITE, TATACAP, TATACHEM, TATACOMM, TATACONSUM, TATAELXSI, TATAINVEST, TATAPOWER, TATASTEEL
+  185/209: TATATECH, TATVA, TBOTEK, TBZ, TCC, TCI, TCIEXP, TCPLPACK, TCS, TDPOWERSYS
+  186/209: TEAMGTY, TEAMLEASE, TECHM, TECHNOE, TECHNVISN, TECILCHEM, TEGA, TEJASNET, TEMBO, TENNIND
+  187/209: TERASOFT, TEXINFRA, TEXMOPIPES, TEXRAIL, TFCILTD, TFL, TGBHOTELS, THAKDEV, THANGAMAYL, THEINVEST
+  188/209: THEJO, THELEELA, THEMISMED, THERMAX, THOMASCOOK, THOMASCOTT, THYROCARE, TI, TIIL, TIINDIA
+  189/209: TIJARIA, TIL, TIMETECHNO, TIMEX, TIMKEN, TINNARUBR, TIPSFILMS, TIPSMUSIC, TIRUMALCHM, TITAGARH
+  190/209: TITAN, TMB, TMCV, TMLCV, TMPV, TNPETRO, TNPL, TNTELE, TOLINS, TORNTPHARM
+  191/209: TORNTPOWER, TOTAL, TOUCHWOOD, TPHQ, TPLPLASTEH, TRACXN, TRANSPEK, TRANSRAILL, TRAVELFOOD, TREEHOUSE
+  192/209: TREJHARA, TREL, TRENT, TRF, TRIDENT, TRIGYN, TRITURBINE, TRIVENI, TRU, TRUALT
+  193/209: TSFINV, TTKHLTCARE, TTKPRESTIG, TTL, TTML, TURTLEMINT, TVSELECT, TVSHLTD, TVSMOTOR, TVSSCS
+  194/209: TVSSRICHAK, TVTODAY, UBL, UCAL, UCOBANK, UDS, UEL, UFBL, UFLEX, UFO
+  195/209: UGARSUGAR, UGROCAP, UJJIVANSFB, ULTRACEMCO, ULTRAMAR, UMESLTD, UMIYA-MRO, UNICHEMLAB, UNIECOM, UNIENTER
+  196/209: UNIMECH, UNIONBANK, UNIPARTS, UNITDSPR, UNITECH, UNITEDTEA, UNIVCABLES, UNOMINDA, UPL, URBANCO
+  197/209: URJA, USHAMART, USK, UTIAMC, UTKARSHBNK, UTLSOLAR, UTTAMSUGAR, UYFINCORP, V2RETAIL, VADILALIND
+  198/209: VAIBHAVGBL, VAISHALI, VAKRANGEE, VAML, VARDMNPOLY, VARROC, VASWANI, VBL, VCL, VEDL
+  199/209: VEDPOWER, VEEDOL, VENKEYS, VENTIVE, VENUSPIPES, VERANDA, VESUVIUS, VGL, VGUARD, VHL
+  200/209: VIDHIING, VIDYAWIRES, VIJAYA, VIKASECO, VIKASLIFE, VIKRAMSOLR, VIKRAN, VIMTALABS, VINATIORGA, VINCOFE
+  201/209: VINDHYATEL, VINNY, VINYLINDIA, VIPIND, VIRINCHI, VISAKAIND, VISHNU, VISHWARAJ, VISL, VIVIDHA
+  202/209: VIYASH, VLSFINANCE, VMART, VMM, VOEPL, VOGL, VOLTAMP, VOLTAS, VRAJ, VRLLOG
+  203/209: VSSL, VSTIND, VSTL, VSTTILLERS, VTL, WAAREEENER, WAAREEINDO, WAAREERTL, WABAG, WAKEFIT
+  204/209: WALCHANNAG, WANBURY, WCIL, WEALTH, WEBELSOLAR, WEIZMANIND, WEL, WELCORP, WELENT, WELSPLSOL
+  205/209: WELSPUNLIV, WENDT, WESTLIFE, WEWORK, WHEELS, WHIRLPOOL, WILLAMAGOR, WINDLAS, WINDMACHIN, WIPL
+  206/209: WIPRO, WOCKPHARMA, WONDERLA, WORTHPERI, WPIL, WSI, WSTCSTPAPR, XCHANGING, XELPMOC, XPROINDIA
+  207/209: XTGLOBAL, YASHO, YATHARTH, YATRA, YESBANK, YUKEN, ZAGGLE, ZEEL, ZEEMEDIA, ZENITHEXPO
+  208/209: ZENITHSTL, ZENSARTECH, ZENTEC, ZFCVINDIA, ZFSTEERING, ZODIAC, ZODIACLOTH, ZOTA, ZSARACOM, ZUARI
+  209/209: ZUARIIND, ZYDUSLIFE, ZYDUSWELL
+
+==============================================
+  Stocks OK        : 2082
+  Stocks failed    : 1
+  Rows written     : 18,979
+  Total in database: 1,369,797
+  Date range       : 2021-08-06 to 2026-08-07
+  Failed: TMLCV
+==============================================
+Fetching news for 150 companies (~3 minutes).
+These are the highest-scoring stocks — the only ones that could
+appear in a shortlist. Ctrl+C is safe.
+
+    10/150   67 new headlines
+    20/150   115 new headlines
+    30/150   170 new headlines
+    40/150   238 new headlines
+    50/150   305 new headlines
+    60/150   374 new headlines
+    70/150   441 new headlines
+    80/150   509 new headlines
+    90/150   579 new headlines
+   100/150   659 new headlines
+   110/150   727 new headlines
+   120/150   794 new headlines
+   130/150   853 new headlines
+   140/150   945 new headlines
+   150/150   1011 new headlines
+
+================================================
+  New headlines   : 1011
+  Already had     : 785
+  Failed          : 0
+  Purged (>45d)  : 995
+  Total stored    : 1653
+================================================
+
+Next: python rank.py  (so catalyst scores pick these up)
+RUN FINISHED: 07-08-2026 12:25:45.14 
+ 
+============================================ 
+RUN STARTED: 07-08-2026 15:30:31.98 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TMLCV.NS"}}}
+$TMLCV.NS: possibly delisted; no timezone found
+
+1 Failed download:
+['TMLCV.NS']: possibly delisted; no timezone found
+Getting the list of listed companies ...
+  trying nsearchives.nseindia.com ...
+  got 2397 rows
+  2075 equity symbols in the universe
+
+2083 stocks already have data.
+210 still to fetch. Roughly 0 minutes.
+
+Safe to stop with Ctrl+C — rerun and it continues.
+
+  [  1/11] 3BBLACKBIO ... (0 done, 0 failed)
+  [  2/11] ASTAR ... (20 done, 0 failed, ~0 min left)
+  [  3/11] CMLL ... (40 done, 0 failed, ~1 min left)
+  [  4/11] EXCELSOFT ... (60 done, 0 failed, ~0 min left)
+  [  5/11] HBESD ... (80 done, 0 failed, ~0 min left)
+  [  6/11] KOTIC ... (100 done, 0 failed, ~0 min left)
+  [  7/11] MENNPIS ... (120 done, 0 failed, ~0 min left)
+  [  8/11] PAUSHAKLTD ... (140 done, 0 failed, ~0 min left)
+  [  9/11] SAATVIKGL ... (160 done, 0 failed, ~0 min left)
+  [ 10/11] STUDDS ... (180 done, 0 failed, ~0 min left)
+  [ 11/11] VIDYAWIRES ... (199 done, 1 failed)
+
+  fetched 209, failed 1, 3,389 new rows
+
+========================================================
+  UNIVERSE STATUS
+========================================================
+  Companies tracked      : 2,082
+  Marked inactive        : 2
+  With price data        : 2,083
+  With enough history    : 1,875  (screenable)
+  Total price rows       : 1,369,798
+  Date range             : 2021-08-06 to 2026-08-07
+  Database size          : 207 MB
+========================================================
+
+  2 symbols failed 3+ times and were switched off.
+  Usually delisted or renamed. See the ingest_failures table.
+Nothing to fetch — every stock already has fundamentals.
+
+==========================================================
+  FUNDAMENTALS COVERAGE
+==========================================================
+  Earnings growth       1597 of 2082  (  77%)
+  Revenue growth        2003 of 2082  (  96%)
+  Operating margin      2075 of 2082  ( 100%)
+  Debt to equity        1868 of 2082  (  90%)
+  Return on equity      1312 of 2082  (  63%)
+  P/E ratio             1787 of 2082  (  86%)
+  Sector                2075 of 2082  ( 100%)
+
+  Warning signs already visible:
+    Loss-making (negative margin)     201
+    Heavily indebted (D/E over 2x)    126
+    Shrinking revenue                 462
+==========================================================
+
+  NOT available from this source: promoter pledging, promoter
+  holding changes, auditor resignations. Those need BSE filings.
+
+Next: python rank.py
+Loading price history ...
+  1,369,798 rows
+  fundamentals for 2,082 companies
+  benchmark loaded
+Scoring ...
+  151 stocks qualify today
+
+  scored 1,874, skipped 208 (too little history)
+  took 27 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      621
+  ... and beating the index          518
+  ... and within 15% of high         437
+  ... and turnover over Rs8cr        325
+  ... and moves at least 1.8%/day    318
+  ... and not over-extended          292
+======================================================
+
+  By size (after all filters):
+    large       55
+    mid         76
+    small      156
+    micro        4
+
+======================================================
+  HOW MUCH THE LIST CHANGED SINCE LAST RUN
+======================================================
+  Held their place : 145
+  New today        : 6
+  Dropped off      : 185
+    gone: 360ONE, 3MINDIA, 63MOONS, ABCAPITAL, ACMESOLAR, ADANIENT, ADOR, AEROFLEX
+
+  44% of yesterday's list is still there.
+  For a two-month hold you want this high. Below about 70%
+  the screen is reacting to noise rather than trend.
+======================================================
+
+Done. The dashboard will now load instantly.
+Fetching news for 150 companies (~3 minutes).
+These are the highest-scoring stocks — the only ones that could
+appear in a shortlist. Ctrl+C is safe.
+
+    10/150   59 new headlines
+    20/150   118 new headlines
+    30/150   171 new headlines
+    40/150   250 new headlines
+    50/150   324 new headlines
+    60/150   393 new headlines
+    70/150   455 new headlines
+    80/150   524 new headlines
+    90/150   584 new headlines
+   100/150   672 new headlines
+   110/150   749 new headlines
+   120/150   840 new headlines
+   130/150   928 new headlines
+   140/150   1014 new headlines
+   150/150   1110 new headlines
+
+================================================
+  New headlines   : 1110
+  Already had     : 688
+  Failed          : 0
+  Purged (>45d)  : 998
+  Total stored    : 1765
+================================================
+
+Next: python rank.py  (so catalyst scores pick these up)
+Loading price history ...
+  1,369,798 rows
+  fundamentals for 2,082 companies
+  benchmark loaded
+Scoring ...
+  151 stocks qualify today
+
+  scored 1,874, skipped 208 (too little history)
+  took 19 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      621
+  ... and beating the index          518
+  ... and within 15% of high         437
+  ... and turnover over Rs8cr        325
+  ... and moves at least 1.8%/day    318
+  ... and not over-extended          292
+======================================================
+
+  By size (after all filters):
+    large       55
+    mid         76
+    small      156
+    micro        4
+
+======================================================
+  HOW MUCH THE LIST CHANGED SINCE LAST RUN
+======================================================
+  Held their place : 145
+  New today        : 6
+  Dropped off      : 185
+    gone: 360ONE, 3MINDIA, 63MOONS, ABCAPITAL, ACMESOLAR, ADANIENT, ADOR, AEROFLEX
+
+  44% of yesterday's list is still there.
+  For a two-month hold you want this high. Below about 70%
+  the screen is reacting to noise rather than trend.
+======================================================
+
+Done. The dashboard will now load instantly.
+
+########## WEEKLY (7 trading days) ##########
+Window: 7 trading days (2026-07-30 to 2026-08-07)
+A stock needs 3+ qualifying days to make the monthly list.
+
+332 stocks qualified at least 3 times.
+
+==============================================================
+  WEEKLY SHORTLIST — 332 stocks
+==============================================================
+
+==============================================================
+  Took 5 seconds
+
+########## MONTHLY (30 trading days) ##########
+Window: 30 trading days (2026-06-29 to 2026-08-07)
+A stock needs 15+ qualifying days to make the monthly list.
+
+317 stocks qualified at least 15 times.
+
+==============================================================
+  MONTHLY SHORTLIST — 317 stocks
+==============================================================
+
+==============================================================
+  Took 5 seconds
+
+==============================================================
+  IF YOU HAD BOUGHT EVERY PICK — last 7 days
+  2026-07-30 to 2026-08-07
+==============================================================
+  Stocks picked        : 382
+  Winners / losers     : 243 / 139
+  Win rate             : 64%
+  Average return       : +2.36%
+  Median return        : +1.38%
+  Invested             : Rs3,820,000
+  Profit / loss        : Rs90,213
+  Portfolio return     : +2.36%
+  Nifty over same time : +0.90%
+  Excess               : +1.47 points
+
+  Best  : MOREPENLAB +43.0%
+  Worst : ZEEL -16.7%
+
+  Average best moment  : +6.3%
+  Average worst moment : -2.8%
+
+  The picks roughly matched the index (+1.5 points). The screen is not adding much beyond market direction here.
+==============================================================
+
+==============================================================
+  IF YOU HAD BOUGHT EVERY PICK — last 30 days
+  2026-06-29 to 2026-08-07
+==============================================================
+  Stocks picked        : 553
+  Winners / losers     : 303 / 250
+  Win rate             : 55%
+  Average return       : +2.21%
+  Median return        : +0.92%
+  Invested             : Rs5,530,000
+  Profit / loss        : Rs122,482
+  Portfolio return     : +2.21%
+  Nifty over same time : +2.31%
+  Excess               : -0.10 points
+
+  Best  : TFCILTD +52.9%
+  Worst : TRIVENI -44.8%
+
+  Average best moment  : +11.1%
+  Average worst moment : -7.7%
+
+  The picks roughly matched the index (-0.1 points). The screen is not adding much beyond market direction here.
+==============================================================
+
+  Entry is the next day's OPEN after a pick, never the same day's
+  close — you cannot buy a price that has already printed. No
+  brokerage or slippage is deducted, so real results would be
+  slightly worse.
+RUN FINISHED: 07-08-2026 15:37:33.87 
+ 
+============================================ 
+RUN STARTED: 07-08-2026 20:55:05.11 
+============================================ 
+^C 
+============================================ 
+RUN STARTED: 07-08-2026 21:04:15.74 
+Traceback (most recent call last):
+  File "C:\Users\abhis\swing-engine\build_universe.py", line 25, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+Run: pip install yfinance
+Traceback (most recent call last):
+  File "C:\Users\abhis\swing-engine\rank.py", line 17, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Missing package. Run:  pip install feedparser
+Traceback (most recent call last):
+  File "C:\Users\abhis\swing-engine\rank.py", line 17, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Traceback (most recent call last):
+  File "C:\Users\abhis\swing-engine\monthly.py", line 24, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Traceback (most recent call last):
+  File "C:\Users\abhis\swing-engine\tracker.py", line 25, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+RUN FINISHED: 07-08-2026 21:04:17.42 
+ 
+============================================ 
+RUN STARTED: 07-08-2026 21:31:28.51 
+Getting the list of listed companies ...
+  trying nsearchives.nseindia.com ...
+  got 2397 rows
+  2075 equity symbols in the universe
+
+Traceback (most recent call last):
+  File "C:\Users\abhis\swing-engine\build_universe.py", line 390, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\abhis\swing-engine\build_universe.py", line 380, in main
+    ingest(conn, args.years)
+    ~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abhis\swing-engine\build_universe.py", line 240, in ingest
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+Run: pip install yfinance
+Loading price history ...
+  1,369,814 rows
+  fundamentals for 2,082 companies
+  benchmark loaded
+Scoring ...
+  151 stocks qualify today
+
+  scored 1,874, skipped 208 (too little history)
+  took 25 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      621
+  ... and beating the index          518
+  ... and within 15% of high         437
+  ... and turnover over Rs8cr        325
+  ... and moves at least 1.8%/day    318
+  ... and not over-extended          292
+======================================================
+
+  By size (after all filters):
+    large       55
+    mid         76
+    small      156
+    micro        4
+
+======================================================
+  HOW MUCH THE LIST CHANGED SINCE LAST RUN
+======================================================
+  Held their place : 145
+  New today        : 6
+  Dropped off      : 185
+    gone: 360ONE, 3MINDIA, 63MOONS, ABCAPITAL, ACMESOLAR, ADANIENT, ADOR, AEROFLEX
+
+  44% of yesterday's list is still there.
+  For a two-month hold you want this high. Below about 70%
+  the screen is reacting to noise rather than trend.
+======================================================
+
+Done. The dashboard will now load instantly.
+Missing package. Run:  pip install feedparser
+Loading price history ...
+  1,369,814 rows
+  fundamentals for 2,082 companies
+  benchmark loaded
+Scoring ...
+  151 stocks qualify today
+
+  scored 1,874, skipped 208 (too little history)
+  took 24 seconds
+
+======================================================
+  HOW MANY SURVIVE EACH FILTER
+======================================================
+  Scored                           1,874
+  In an uptrend                      621
+  ... and beating the index          518
+  ... and within 15% of high         437
+  ... and turnover over Rs8cr        325
+  ... and moves at least 1.8%/day    318
+  ... and not over-extended          292
+======================================================
+
+  By size (after all filters):
+    large       55
+    mid         76
+    small      156
+    micro        4
+
+======================================================
+  HOW MUCH THE LIST CHANGED SINCE LAST RUN
+======================================================
+  Held their place : 145
+  New today        : 6
+  Dropped off      : 185
+    gone: 360ONE, 3MINDIA, 63MOONS, ABCAPITAL, ACMESOLAR, ADANIENT, ADOR, AEROFLEX
+
+  44% of yesterday's list is still there.
+  For a two-month hold you want this high. Below about 70%
+  the screen is reacting to noise rather than trend.
+======================================================
+
+Done. The dashboard will now load instantly.
+
+########## WEEKLY (7 trading days) ##########
+Window: 7 trading days (2026-07-30 to 2026-08-07)
+A stock needs 3+ qualifying days to make the monthly list.
+
+332 stocks qualified at least 3 times.
+
+==============================================================
+  WEEKLY SHORTLIST — 332 stocks
+==============================================================
+
+==============================================================
+  Took 6 seconds
+
+########## MONTHLY (30 trading days) ##########
+Window: 30 trading days (2026-06-29 to 2026-08-07)
+A stock needs 15+ qualifying days to make the monthly list.
+
+317 stocks qualified at least 15 times.
+
+==============================================================
+  MONTHLY SHORTLIST — 317 stocks
+==============================================================
+
+==============================================================
+  Took 6 seconds
+
+==============================================================
+  IF YOU HAD BOUGHT EVERY PICK — last 7 days
+  2026-07-30 to 2026-08-07
+==============================================================
+  Stocks picked        : 382
+  Winners / losers     : 243 / 139
+  Win rate             : 64%
+  Average return       : +2.36%
+  Median return        : +1.38%
+  Invested             : Rs3,820,000
+  Profit / loss        : Rs90,139
+  Portfolio return     : +2.36%
+  Nifty over same time : +0.90%
+  Excess               : +1.46 points
+
+  Best  : MOREPENLAB +43.0%
+  Worst : ZEEL -16.7%
+
+  Average best moment  : +6.3%
+  Average worst moment : -2.8%
+
+  The picks roughly matched the index (+1.5 points). The screen is not adding much beyond market direction here.
+==============================================================
+
+==============================================================
+  IF YOU HAD BOUGHT EVERY PICK — last 30 days
+  2026-06-29 to 2026-08-07
+==============================================================
+  Stocks picked        : 553
+  Winners / losers     : 303 / 250
+  Win rate             : 55%
+  Average return       : +2.21%
+  Median return        : +0.81%
+  Invested             : Rs5,530,000
+  Profit / loss        : Rs122,271
+  Portfolio return     : +2.21%
+  Nifty over same time : +2.31%
+  Excess               : -0.10 points
+
+  Best  : TFCILTD +52.9%
+  Worst : TRIVENI -44.8%
+
+  Average best moment  : +11.1%
+  Average worst moment : -7.7%
+
+  The picks roughly matched the index (-0.1 points). The screen is not adding much beyond market direction here.
+==============================================================
+
+  Entry is the next day's OPEN after a pick, never the same day's
+  close — you cannot buy a price that has already printed. No
+  brokerage or slippage is deducted, so real results would be
+  slightly worse.
+RUN FINISHED: 07-08-2026 21:32:45.71 
