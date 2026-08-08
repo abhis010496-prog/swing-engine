@@ -13,12 +13,14 @@ instant switching, no page reloads, proper charts.
 import json
 import sqlite3
 from datetime import datetime, timedelta
+import datetime as dt
 
 import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 
 import modes
+from position_engine import analyse, TARGET_PCT, HOLD_MONTHS, STOP_ATR_MULT
 
 import os as _os
 DB = "market.db" if _os.path.exists("market.db") else "deploy.db"
@@ -302,7 +304,7 @@ rows.sort(key=lambda x: -x["score"])
 
 # ---- section switch: a plain selectbox, no state juggling, no reruns ----
 nav_a, nav_b, nav_c = st.columns([1.3, 1.7, 1.5])
-view = nav_a.selectbox("Section", ["Find stocks", "Practice trading"], index=0)
+view = nav_a.selectbox("Section", ["Find stocks", "My holdings", "Practice trading"], index=0)
 listing = nav_b.selectbox(
     "Which list",
     ["Daily shortlist", "Weekly shortlist", "Monthly shortlist",
@@ -317,6 +319,133 @@ st.session_state["use_live"] = nav_c.toggle(
     help="Show current prices (about 15 minutes delayed) instead of the last "
          "close. Scoring always uses closes either way.")
 use_live_prices = st.session_state["use_live"]
+
+# ================= MY HOLDINGS / POSITION ENGINE =================
+def render_holdings():
+    st.markdown("""
+    <style>
+      .pe-verdict {border-radius:14px;padding:1.1rem 1.3rem;margin:.4rem 0 1.2rem;}
+      .pe-good {background:#EAF7F2;border-left:5px solid #0B7A55;}
+      .pe-warn {background:#FFF6E3;border-left:5px solid #B8860B;}
+      .pe-bad  {background:#FDECEC;border-left:5px solid #BE3B32;}
+      .pe-verdict h2 {margin:0;font-size:1.55rem;color:#101B29;}
+      .pe-verdict p {margin:.35rem 0 0;color:#5A6B80;font-size:.93rem;}
+      .pe-row {display:flex;justify-content:space-between;padding:.55rem 0;
+               border-bottom:1px solid #E6ECF3;font-size:.94rem;}
+      .pe-row .lbl {color:#6B7C90;}
+      .pe-row .val {font-variant-numeric:tabular-nums;font-weight:600;color:#101B29;}
+      .pe-tick {color:#0B7A55;font-weight:700;}
+      .pe-cross {color:#BE3B32;font-weight:700;}
+      .pe-dash {color:#7B8794;font-weight:700;}
+    </style>
+    """, unsafe_allow_html=True)
+
+    st.markdown("<h2 style='margin-bottom:0'>My holdings</h2>", unsafe_allow_html=True)
+    st.caption("Check whether the reasons to own a stock still hold. This uses the same position engine as the standalone holdings app.")
+
+    typed = st.text_input("Stock", placeholder="DABUR", key="position_engine_sym").strip()
+    c1, c2, c3 = st.columns(3)
+    entry_price = c1.number_input("Your buy price (₹)", min_value=0.0, value=0.0, step=1.0, format="%.2f", key="position_entry")
+    qty = c2.number_input("Shares held", min_value=0, value=0, step=1, key="position_qty")
+    entry_date = c3.date_input("Bought on", value=dt.date.today() - dt.timedelta(days=30), max_value=dt.date.today(), key="position_date")
+
+    if not typed:
+        st.info("Enter a stock above to see how your position stands.")
+        return
+
+    try:
+        r = analyse(DB, typed, entry_price or None, qty or None, entry_date)
+    except LookupError as e:
+        st.error(str(e))
+        return
+    except Exception as e:
+        st.error(f"Could not read {DB}: {e}")
+        return
+
+    if not r["found"]:
+        if r.get("suggestions"):
+            st.warning(f"No stock called **{typed.upper()}**. Did you mean: " + ", ".join(f"`{x}`" for x in r["suggestions"]) + "?")
+        else:
+            st.warning(r.get("error", f"**{typed.upper()}** is not in the database."))
+        return
+
+    m, v, pos = r["metrics"], r["verdict"], r["verdict"]["position"]
+    tone = {"good":"pe-good", "warn":"pe-warn", "bad":"pe-bad"}.get(v["tone"], "pe-warn")
+
+    st.markdown(f"""
+    <div class="pe-verdict {tone}">
+      <h2>{v['call']} — {r['symbol']}</h2>
+      <p>Priced at ₹{m['close']:,.2f} on {m['last_date']:%d %b %Y}</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    if m["stale_days"] > 5:
+        st.warning(f"Prices are {m['stale_days']} days old. Run `build_universe.py` before trusting this.")
+
+    def pe_rows(items):
+        html = ""
+        for lbl, val in items:
+            html += f'<div class="pe-row"><span class="lbl">{lbl}</span><span class="val">{val}</span></div>'
+        st.markdown(html, unsafe_allow_html=True)
+
+    if pos.get("entry"):
+        st.subheader("Your position")
+        sign = "+" if pos["pnl_pct"] >= 0 else ""
+        items = [
+            ("Bought at", f"₹{pos['entry']:,.2f}"),
+            ("Now", f"₹{m['close']:,.2f}"),
+            ("Profit / loss", f"{sign}{pos['pnl_pct']:.1f}%"),
+        ]
+        if qty:
+            items.append(("In rupees", f"{sign}₹{pos['pnl_rs']:,.0f} on {qty} shares"))
+        if "stop" in pos:
+            items.append((f"Stop ({STOP_ATR_MULT:.0f}× daily range below entry)", f"₹{pos['stop']:,.2f} · {pos['stop_dist_pct']:+.1f}% away"))
+        items.append((f"Target ({TARGET_PCT:.0f}%)", f"₹{pos['target']:,.2f} · {pos['progress']:.0f}% of the way"))
+        if "days_held" in pos:
+            left = pos["window_left_days"]
+            items.append(("Held for", f"{pos['days_held']} days" + (f" · {left} left in the {HOLD_MONTHS:.0f}-month plan" if left >= 0 else " · past the planned window")))
+        pe_rows(items)
+
+    st.subheader("Why")
+    if v["exit_reasons"]:
+        for x in v["exit_reasons"]:
+            st.markdown(f"**·** {x}")
+    if v["watch_reasons"]:
+        for x in v["watch_reasons"]:
+            st.markdown(f"**·** {x}")
+    if v["keep_reasons"] and not v["exit_reasons"]:
+        for x in v["keep_reasons"]:
+            st.markdown(f"**·** {x}")
+    if not (v["exit_reasons"] or v["watch_reasons"] or v["keep_reasons"]):
+        st.markdown("Nothing has changed for better or worse.")
+
+    st.subheader("The six checks")
+    st.caption("The same tests a stock must pass to reach the daily list.")
+    html = ""
+    for g in r["gates"]:
+        mark = ('<span class="pe-tick">✓</span>' if g["pass"] is True
+                else '<span class="pe-cross">✗</span>' if g["pass"] is False
+                else '<span class="pe-dash">–</span>')
+        html += (f'<div class="pe-row"><span class="lbl">{mark} &nbsp;{g["name"]}</span>'
+                 f'<span class="val" style="font-weight:400;color:#6B7C90;">{g["detail"]}</span></div>')
+    st.markdown(html, unsafe_allow_html=True)
+
+    if r["vetoes"]:
+        st.error("**Disqualified outright:** " + " · ".join(r["vetoes"]))
+    elif not r["has_fundamentals"]:
+        st.caption("No fundamentals table found, so the loss-making, debt and falling-sales checks were skipped.")
+
+    p = r["persistence"]
+    if p and p.get("d30_of"):
+        st.subheader("How often it passes")
+        pe_rows([("Last 7 days", f"{p['d7']} of {p['d7_of']} days"),
+                 ("Last 30 days", f"{p['d30']} of {p['d30_of']} days")])
+        st.caption("This is what the weekly and monthly lists rank on.")
+
+
+if view == "My holdings":
+    render_holdings()
+    st.stop()
 
 if view == "Practice trading":
     import paper
